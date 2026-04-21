@@ -18,6 +18,7 @@ Week: 2026-W17 (Apr 20 - Apr 26)
 Sivan peer-intro. Highest conversion lever right now.
 
 ## Upcoming
+- **Wed first-thing: walk through [[2026-04-22|Wed plan]] with Miles before executing. Full email + autonomy build queued.**
 - Tues AM ET: send drafts to Leilani + Jessica.
 - Mid-week: voicemail Hunter at Metalex.
 - Fri 4pm: weekly review → `60_Lessons/2026-W17-review.md`.
