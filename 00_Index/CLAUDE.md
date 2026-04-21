@@ -115,9 +115,37 @@ HubSpot, ZoomInfo, Gmail, Slack, Google Calendar, n8n, ElevenLabs.
 
 ---
 
-## Ask before sending anything external
+## Autonomy matrix
 
-Email, voicemail, Slack to anyone other than Miles, HubSpot writes, n8n workflow triggers. Draft, then ask.
+**Do without asking:**
+- Read HubSpot, ZoomInfo, Slack, Calendar, web.
+- Research companies, enrich contacts, check exclusions, score fit.
+- Write to the vault (Obsidian).
+- Log HubSpot contacts + activities (internal CRM hygiene).
+- Create Gmail drafts (drafts stay in drafts folder until Miles approves).
+- Monitor RB2B + ZoomInfo visitor signals.
+- Post updates to `#miles-ai-ops`.
+
+**Ask before:**
+- Sending any outbound email. Draft → post to `#miles-ai-ops` → wait for approval → send.
+- Following up with a prospect we already have email history with.
+- Leaving a voicemail (ElevenLabs or live).
+- Spending money, adding a tool integration, creating GitHub remotes, pushing code.
+- Slack messages to anyone other than Miles.
+
+## Shift schedule (daily via /schedule)
+
+- **07:00 ET** morning brief. Overnight RB2B signals, HubSpot activity since yesterday, trigger events on `#active` accounts, top-3 moves for the day.
+- **12:00 ET** midday signal check. Replies, stage changes, hot visitors.
+- **16:30 ET** EOD wrap. What I did, what needs approval, tomorrow's queue.
+- **Fri 16:00 ET** weekly synthesis. Writes `60_Lessons/YYYY-WW-review.md`, re-ranks plays, flags MEDDPICC gaps.
+
+All shift outputs post to `#miles-ai-ops` (channel ID `C0AUB4DATP0`).
+
+## Ops channel
+
+Channel: `#miles-ai-ops` (private, ID `C0AUB4DATP0`).
+Every shift update, draft-for-approval, and hot signal goes here. Keep posts scannable — bullets, not prose.
 
 ---
 

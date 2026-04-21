@@ -1,0 +1,50 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "90_Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "10_Accounts",
+      "template": "90_Templates/tpl-account.md"
+    },
+    {
+      "folder": "20_Contacts",
+      "template": "90_Templates/tpl-contact.md"
+    },
+    {
+      "folder": "70_Daily",
+      "template": "90_Templates/tpl-daily.md"
+    },
+    {
+      "folder": "60",
+      "template": "90_Templates/tpl-weekly.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}
