@@ -104,6 +104,31 @@ Verify every outbound draft against this list before pushing to Gmail.
 
 Never store the same field in two systems unless one is a cache with a timestamp.
 
+## HubSpot stage label translation (CRITICAL — DO NOT IGNORE)
+
+HubSpot's `dealstage` property IDs do NOT match their default semantic meaning in Onyxia's pipeline. Labels were remapped during a prior migration. Any query that trusts the default IDs returns INVERTED data.
+
+**Authoritative translation table:**
+
+| `dealstage` ID | Actual UI Label | Pipeline | Interpretation |
+|---|---|---|---|
+| `appointmentscheduled` | Discovery/Validation | default | Early discovery, first meeting held |
+| `decisionmakerboughtin` | POC/Partnership | default | Champion confirmed, POC in flight |
+| `contractsent` | Negotiations/Contract sent | default | Paper process |
+| `closedwon` | **Final Legal/Procurement** | default | LATE STAGE (not won yet) |
+| `closedlost` | **Closed Won** | default | ACTUAL CUSTOMER WIN |
+| `71106477` | Closed Lost | default | ACTUAL LOSS |
+| `1012208479` | Churned | default | Former customer |
+| `252640014` | Closed Won | Partner Pipeline | Partner win |
+| `252640015` | Closed Lost | Partner Pipeline | Partner loss |
+| `1030537116` | Closed Lost | Archived Pipeline | Legacy loss |
+
+**Rules for agents:**
+- To query wins: filter `dealstage IN ("closedlost", "252640014")`.
+- To query losses: filter `dealstage IN ("71106477", "252640015", "1030537116")`.
+- Never filter on `dealstage = "closedwon"` expecting wins. That gets you late-stage in-flight deals.
+- If you encounter a stage value not in this table, stop and flag to Miles. Do not guess.
+
 ---
 
 ## Integrations you can call
@@ -136,14 +161,32 @@ HubSpot, ZoomInfo, Gmail, Slack, Google Calendar, n8n, ElevenLabs.
 - Spending money, adding a tool integration, creating GitHub remotes, pushing code.
 - Slack messages to anyone other than Miles.
 
-## Shift schedule (daily via /schedule)
+## Shift schedule (daily + weekly via /schedule)
 
 - **07:00 ET** morning brief. Overnight RB2B signals, HubSpot activity since yesterday, trigger events on `#active` accounts, top-3 moves for the day.
-- **12:00 ET** midday signal check. Replies, stage changes, hot visitors.
-- **16:30 ET** EOD wrap. What I did, what needs approval, tomorrow's queue.
-- **Fri 16:00 ET** weekly synthesis. Writes `60_Lessons/YYYY-WW-review.md`, re-ranks plays, flags MEDDPICC gaps.
+- **07:15 ET** watchdog. Verifies morning brief posted; alerts if missing.
+- **09:00 ET** pre-meeting prep. Dossier + MEDDPICC + last-touch for every prospect meeting on today's Calendar.
+- **12:00 ET** midday signal check + reply intent parser. Replies classified, branch drafts posted for approval.
+- **16:30 ET** EOD wrap + rejection capture. Scans Slack reactions, logs approvals/rejections, reasons.
+- **Sun 20:00 ET** reactivation sweep (biweekly volume, weekly cadence). Mines 4 dormant buckets from 113-loss corpus.
+- **Fri 16:00 ET** weekly synthesis. Writes `60_Lessons/YYYY-WW-review.md`, re-ranks plays, flags MEDDPICC gaps, aggregates rejections + reply conversion, tracks cost.
 
 All shift outputs post to `#miles-ai-ops` (channel ID `C0AUB4DATP0`).
+
+## Feedback conventions (hard — how Miles communicates with me)
+
+In `#miles-ai-ops`, Miles reacts to draft posts with:
+- ✅ = approve and send (I send on next shift)
+- 👎 = reject, please add a one-line reason in thread
+- ✏️ = edit needed; Miles replies in thread with the correct version OR with edit notes
+- 🟢 = just acknowledged, no action
+- No reaction = not now, revisit later
+
+Rejection reasons are captured daily in `60_Lessons/rejections/YYYY-MM-DD.md` and synthesized weekly. See `40_Plays/rejection-feedback.md`.
+
+## Reply intent handling
+
+Every reply to Miles's outbound emails is classified by the parser (see `40_Plays/reply-intent-parser.md`). The parser runs during Midday and EOD shifts. Each classified reply produces a branch-default Gmail draft for Miles's approval. Pricing questions always redirect to scoping call, never quote.
 
 ## Ops channel
 

@@ -16,8 +16,13 @@ You are running the Friday weekly review.
 1. Read all `70_Daily/YYYY-MM-DD.md` files from this week.
 2. Read all new/modified `10_Accounts/*.md` this week.
 3. Read all `30_Meetings/*` this week.
-4. Pull HubSpot activity: stage changes, new deals, deals closed/lost, email replies, meetings held, calls made.
-5. Write `~/ObsidianVault/60_Lessons/YYYY-[W]WW-review.md` using the `tpl-weekly.md` template.
+4. Read all `60_Lessons/rejections/*.md` and `60_Lessons/replies/*.md` from this week.
+5. Pull HubSpot activity: stage changes, new deals, deals closed/lost, email replies, meetings held, calls made.
+6. Write `~/ObsidianVault/60_Lessons/YYYY-[W]WW-review.md` using the `tpl-weekly.md` template. Include these new sections:
+   - **Rejection patterns.** Aggregate 👎 reasons. Any reason appearing 2+ times triggers a voice rule or play revision. Document the rule change here.
+   - **Reply classification summary.** Total replies received + bucket distribution + reply-to-meeting conversion rate.
+   - **Compute cost tracking.** Rough estimate of shift-runs and draft-creations this week for observability. Flag if costs spike.
+   - **Draft-to-send rate.** Of drafts posted, how many got ✅ approved? Track trend over weeks. When it hits 90%+ consistently for 3 weeks, surface "option (b) auto-send" eligibility to Miles.
 
 Fill in every section:
 - Pipeline movement (Dataview or manual list of stage changes)

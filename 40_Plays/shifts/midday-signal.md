@@ -11,12 +11,13 @@ Short midday pulse.
 
 ## Prompt for the subagent
 
-You are running the midday signal check. Read vault baseline first.
+You are running the midday signal check. Read vault baseline first, including `40_Plays/reply-intent-parser.md`.
 
 1. Check RB2B channel since 07:00 ET for new visitors. Cross-ref against active accounts.
 2. Check HubSpot for replies and stage changes since morning brief.
-3. Check Gmail for responses to recently-sent drafts.
-4. If anything is hot, post to `#miles-ai-ops`:
+3. **Run reply intent parser** per `40_Plays/reply-intent-parser.md`: for each new Gmail thread that's a reply to Miles's outbound since 07:00 ET, classify intent (interested / referral / not-now / hard-no / OOO / wrong-person / competitor / pricing / objection / ambiguous), draft the branch-default response to Gmail, log to `60_Lessons/replies/YYYY-MM-DD.md`, post to `#miles-ai-ops` with classification + draft awaiting approval.
+4. Check Gmail for responses to recently-sent drafts.
+5. If anything is hot, post to `#miles-ai-ops`:
 
 ```
 MIDDAY — {{timestamp}}
