@@ -147,6 +147,25 @@ All shift outputs post to `#miles-ai-ops` (channel ID `C0AUB4DATP0`).
 Channel: `#miles-ai-ops` (private, ID `C0AUB4DATP0`).
 Every shift update, draft-for-approval, and hot signal goes here. Keep posts scannable — bullets, not prose.
 
+## RB2B visitor feed
+
+Channel: `#rb2b` (public, ID `C078FDJBJ2X`).
+RB2B auto-posts de-anonymized visitors to onyxia.io with Name/Title/Company/LinkedIn/Location + company size + industry + visit timestamp.
+
+Morning brief pulls all hits since yesterday 17:00 ET. Midday pulls fresh hits. Anything Tier 1 ICP with fit score ≥4 surfaces to Miles for same-day consideration. See `40_Plays/hunt/intent-signal-hunt.md` for the full workflow.
+
+## Hunt mode
+
+Four hunt patterns live in `40_Plays/hunt/`:
+1. **trigger-event-hunt** — daily 06:45 ET (pre-morning-brief). ZoomInfo Scoops + web news. 3-5 fresh drafts/day.
+2. **icp-lookalike-hunt** — Mondays 09:00 ET. Closed-won corpus seeds ZoomInfo similar-companies. 10-15 staged/week.
+3. **vertical-saturation-hunt** — rolling, one sub-vertical/month. Full enumeration of ICP-fit companies.
+4. **intent-signal-hunt** — continuous via RB2B. All qualified visitors.
+
+ICP definition: `50_Intel/icp.md`. Fit scoring 1-5 rubric. Every hunt filters through ICP + exclusions + HubSpot dedupe before reaching Miles.
+
+Combined weekly target: 40-50 qualified Tier 1 prospects staged per week.
+
 ---
 
 ## Current focus
