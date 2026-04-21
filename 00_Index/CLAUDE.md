@@ -32,10 +32,13 @@ HubSpot owner ID: 86806986.
 
 1. `git pull --rebase` before any write.
 2. Read `00_Index/MOC_This_Week.md` for current focus.
-3. Read latest file in `60_Lessons/` for last week's synthesis.
-4. Read any `10_Accounts/*.md` tagged `#active` with `next_action_date` within 7 days.
-5. Do the work.
-6. `git add -A && git commit -m "claude: <one-line summary>"`.
+3. Read `50_Intel/product/README.md` + `50_Intel/product/positioning.md` + `50_Intel/product/quotes.md` to refresh product context.
+4. Read latest file in `60_Lessons/` for last week's synthesis.
+5. Read any `10_Accounts/*.md` tagged `#active` with `next_action_date` within 7 days.
+6. Do the work.
+7. `git add -A && git commit -m "claude: <one-line summary>" && git push`.
+
+**Hard rule on product references:** if you are writing ANY outbound copy that references an Onyxia feature, quote, capability, or customer, verify against `50_Intel/product/*` before including. Do not invent capabilities. Do not paraphrase customer quotes when the verbatim is available.
 
 ---
 
@@ -165,6 +168,34 @@ Four hunt patterns live in `40_Plays/hunt/`:
 ICP definition: `50_Intel/icp.md`. Fit scoring 1-5 rubric. Every hunt filters through ICP + exclusions + HubSpot dedupe before reaching Miles.
 
 Combined weekly target: 40-50 qualified Tier 1 prospects staged per week.
+
+## Intelligence development loop
+
+The vault is not a notepad. It is a compounding brain. Every observation must land where it will be read again.
+
+**Daily (every shift):**
+- Observations that repeat across accounts go to the relevant `50_Intel/` file, not just the account note.
+- New objection heard → append to `50_Intel/methodology/objections.md` (create if missing).
+- New competitor sighting → append to `50_Intel/competitors/{tool}.md`.
+- New trigger-event type that converted → append to `50_Intel/icp.md` trigger events list.
+
+**Weekly (Friday synthesis):**
+- Re-rank plays in `40_Plays/` by this-week's conversion rate.
+- Retire plays with 0 conversions in 30 days.
+- If a pattern shows up twice in the week's meeting debriefs, promote it into `50_Intel/playbook/closed-won-patterns.md` or `closed-lost-patterns.md`.
+- Update `50_Intel/icp.md` fit rubric if actual close rates diverge from predicted scores.
+
+**Monthly:**
+- Re-synthesize `50_Intel/playbook/closed-won-patterns.md` from the past 90 days of closed-won data. Catch messaging drift.
+- Re-score the active pipeline against the updated ICP. Demote deals that no longer fit.
+
+**Quarterly:**
+- Re-audit the tag vocabulary and closed-vocabulary rules. Prune anything unused.
+- Re-audit CLAUDE.md. Remove rules that have not fired in 90 days. Promote rules that have fired more than 20 times into first-paragraph "hard" status.
+- Re-audit templates. Anything drifted gets fixed at the source.
+
+**The mandate:**
+If a lesson is learned in one account note and never referenced again, it decayed. Promotion to a shared intel file is the compounding step. Every shift must include a one-line "what did I learn today that should live at a higher level?" question, and act on it.
 
 ---
 
