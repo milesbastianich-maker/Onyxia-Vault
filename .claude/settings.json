@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_ZoomInfo__search_scoops",
+      "mcp__claude_ai_ZoomInfo__search_intent",
+      "mcp__claude_ai_ZoomInfo__find_similar_companies",
+      "mcp__claude_ai_ZoomInfo__find_similar_contacts",
+      "mcp__claude_ai_ZoomInfo__get_recommended_contacts",
+      "mcp__claude_ai_ZoomInfo__account_research",
+      "mcp__claude_ai_ZoomInfo__contact_research",
+      "mcp__claude_ai_HubSpot__get_campaign_analytics",
+      "mcp__claude_ai_HubSpot__get_campaign_contacts_by_type",
+      "mcp__claude_ai_HubSpot__get_organization_details",
+      "mcp__claude_ai_HubSpot__tool_guidance",
+      "mcp__claude_ai_Google_Calendar__list_events",
+      "mcp__claude_ai_Google_Calendar__get_event",
+      "mcp__claude_ai_Google_Calendar__list_calendars",
+      "mcp__claude_ai_Google_Calendar__suggest_time",
+      "mcp__claude_ai_Google_Calendar__create_event",
+      "mcp__claude_ai_Google_Calendar__update_event",
+      "mcp__claude_ai_Google_Drive__list_recent_files",
+      "mcp__claude_ai_Google_Drive__search_files",
+      "mcp__claude_ai_Google_Drive__read_file_content",
+      "mcp__claude_ai_Google_Drive__get_file_metadata",
+      "mcp__claude_ai_Gmail__list_labels",
+      "mcp__claude_ai_Gmail__search_threads",
+      "mcp__claude_ai_Gmail__get_thread",
+      "mcp__claude_ai_Gmail__list_drafts",
+      "mcp__claude_ai_Gmail__label_message",
+      "mcp__claude_ai_Gmail__label_thread",
+      "mcp__claude_ai_Clay__find-and-enrich-company",
+      "mcp__claude_ai_Clay__find-and-enrich-contacts-at-company",
+      "mcp__claude_ai_Clay__ask-question-about-accounts",
+      "mcp__claude_ai_Clay__get-my-accounts",
+      "mcp__claude_ai_Clay__get-existing-search"
+    ]
+  }
+}
