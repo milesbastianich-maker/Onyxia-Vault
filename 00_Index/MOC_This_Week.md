@@ -5,9 +5,9 @@ Hand-maintained focus file. Claude reads this first every session.
 Week: 2026-W17 (Apr 20 - Apr 26)
 
 ## Top 3 to push
-1. **Medusind** — Jigar Shah, CISO. Post-breach rebuild. $75K. Move to POC.
-2. **Mitsubishi Heavy** — MNDA signed. $75K. Push discovery forward.
-3. **People Inc** — $150K. Biggest in pipeline. Keep momentum.
+1. **Medusind** — Jigar Shah, CISO. Post-breach rebuild. $75K. Multi-thread live: draft to Megan Marshall (GC) awaiting approval. Approve send tomorrow.
+2. **Mitsubishi Heavy** — MNDA signed. $75K. Notes updated today. Push discovery forward.
+3. **People Inc** — $150K. Biggest in pipeline. MEDDPICC blank, Jul 31 close. Book a call this week.
 
 ## Top 3 new conversations to open
 1. **Leilani Farol** (First Horizon Bank) — new CISO, 2 months in, setting strategy.
