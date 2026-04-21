@@ -54,3 +54,7 @@ For RB2B hits with fit score 5 AND in Tier 1 vertical AND using a pre-approved p
 *Not enabled without Miles's explicit green-light.*
 
 ## Runs
+Every draft this play creates must append a row to [[../../50_Intel/methodology/measurement-log]] with `play_source = intent-signal-hunt`.
+
+| date | hits pulled | fit≥3 | drafts staged | drafts sent | replies | meetings |
+|---|---|---|---|---|---|---|

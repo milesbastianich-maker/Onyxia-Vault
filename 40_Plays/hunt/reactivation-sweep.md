@@ -99,3 +99,10 @@ Quarterly: ~120 re-engagement attempts, targeting 8-12% reply rate on fresh trig
 ## Retiring a record
 
 After 2 reactivation attempts in a 12-month window with no reply, move to `99_Archive/` and stop touching. Not every loss is revivable. The sweep is not a guilt trip.
+
+## Runs
+Every draft this play creates must append a row to [[../../50_Intel/methodology/measurement-log]] with `play_source = reactivation-sweep`.
+
+| date | bucket 1 | bucket 2 | bucket 3 | bucket 4 | drafts staged | replies | meetings |
+|---|---|---|---|---|---|---|---|
+

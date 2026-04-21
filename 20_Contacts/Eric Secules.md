@@ -36,6 +36,17 @@ Eric is in Brad's territory. Decision needed: coordinate with Brad to pass the l
 ## History
 - 2026-04-20 11:20 AM: visited onyxia.io (RB2B)
 - 2026-04-21: surfaced by intent-signal hunt, territory conflict flagged
+- 2026-04-22: pending ZoomInfo re-verification of current employer (sub-agent ZoomInfo MCP not loaded this session, re-verify from main thread)
 
 ## Notes
 Do not draft outreach without resolving territory. Post-resolution: Eric's role (digital forensics) makes him an influencer, not a decision-maker. If Brad's team is working SMBC, he is a technical-champion candidate.
+
+## Proposed Slack DM to Brad (awaiting Miles approval)
+
+Target: Brad Baldelli. Channel: DM. Draft, not sent.
+
+> Brad, quick one on SMBC. RB2B caught Eric Secules (Digital Forensics Director at SMBC) visiting onyxia.io Mon 4/20. You own the Sumitomo entities in HubSpot (10 contacts on SMBC, plus Trust, Pharma, Chemical, Insurance). Coordinate or pass? Happy either way. If you are already working it, I will stand down. If SMBC is cold for you, Eric is a technical-influencer fit for intent-signal-hunt and I can take him.
+
+Word count: 75. CTA tier: passive (coordination, not sell). Voice rule check: no em dashes, no corporate jargon.
+
+Hard rule per autonomy matrix: Slack messages to anyone other than Miles require approval. Post the above text to `#miles-ai-ops` asking Miles to ✅ before it goes to Brad.

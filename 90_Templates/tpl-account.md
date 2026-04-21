@@ -30,8 +30,14 @@ One sentence. The pain Onyxia solves for this company specifically.
 - **Competition** — incumbent + alternatives + "do nothing"
 
 ## Threads
-- [[Contact A]] — role
-- [[Contact B]] — role
+**Hard rule (from [[../50_Intel/playbook/closed-won-patterns]] + [[../50_Intel/playbook/closed-lost-patterns]]):**
+Every new account ships with 2-3 parallel drafts at staging time. Partner wins average 4.3 contacts. 60 percent of losses had 1 contact. Single-threaded accounts auto-tag `#single-threaded-risk` and surface weekly.
+
+Target 2-3 of: CISO (champion) + GRC Director (coach) + CFO / GC / CIO (economic buyer).
+
+- [[Contact A]] — CISO — draft: `{link to draft-id in measurement-log}`
+- [[Contact B]] — EB candidate — draft: `{link to draft-id in measurement-log}`
+- [[Contact C]] — coach / peer — draft: `{link or "not drafted"}`
 
 ## Deal
 - Amount: $

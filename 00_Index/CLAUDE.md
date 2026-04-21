@@ -221,6 +221,8 @@ The vault is not a notepad. It is a compounding brain. Every observation must la
 - New objection heard → append to `50_Intel/methodology/objections.md` (create if missing).
 - New competitor sighting → append to `50_Intel/competitors/{tool}.md`.
 - New trigger-event type that converted → append to `50_Intel/icp.md` trigger events list.
+- EOD shift runs `40_Plays/auto-promote-intelligence.md`: scans 24h of account + debrief notes for 2+ file patterns.
+- Proposes appends to the right `50_Intel/` file. Gated on Miles's reaction in `#miles-ai-ops`.
 
 **Weekly (Friday synthesis):**
 - Re-rank plays in `40_Plays/` by this-week's conversion rate.

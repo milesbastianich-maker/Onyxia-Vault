@@ -49,3 +49,7 @@ A lookalike might be same industry + size but different geography, different reg
 Of staged lookalikes, ≥30% should get to a first meeting within 60 days. Below that threshold the lookalike filter needs tightening.
 
 ## Runs
+Every draft this play creates must append a row to [[../../50_Intel/methodology/measurement-log]] with `play_source = icp-lookalike-hunt`.
+
+| date | seed companies | lookalikes staged | drafts sent | replies | meetings |
+|---|---|---|---|---|---|

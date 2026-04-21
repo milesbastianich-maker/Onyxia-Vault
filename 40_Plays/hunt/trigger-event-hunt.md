@@ -38,7 +38,9 @@ Every weekday at 06:45 ET, ahead of the 07:00 morning brief. Feeds the brief.
    - Awaiting approval tag
 
 ## Max volume per run
-5 drafts/day. More than that = noise. Quality over quantity.
+2-3 new accounts per day, 2-3 parallel drafts per account per multi-thread-at-draft-time rule. Cap total output at ~6-9 drafts/day max. More than that = noise. Quality over quantity.
+
+**Multi-thread rule applies at staging.** Per [[../../50_Intel/playbook/closed-won-patterns]], every new account ships with 2-3 parallel drafts (CISO + champion + EB). Do not stage a single-threaded account without flagging it.
 
 ## Expected objection
 "Not a priority right now." → File under nurture with the trigger event date. Re-approach on the next trigger.
@@ -47,4 +49,8 @@ Every weekday at 06:45 ET, ahead of the 07:00 morning brief. Feeds the brief.
 Reply within 5 business days. Peer call booked on calendar. Trigger-event specificity in reply confirms the hook landed.
 
 ## Runs
-(log every run below with date + count found + count replied)
+Every draft this play creates must append a row to [[../../50_Intel/methodology/measurement-log]] with `play_source = trigger-event-hunt`.
+
+| date | signals pulled | drafts staged | drafts sent | replies | meetings |
+|---|---|---|---|---|---|
+

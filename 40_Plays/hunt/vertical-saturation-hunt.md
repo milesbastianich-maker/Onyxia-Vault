@@ -49,3 +49,7 @@ Rolling, one sub-vertical per calendar month. Start of month = scope the vertica
 A vertical map is a standing artifact. Once built, it gets updated quarterly, not rebuilt.
 
 ## Runs
+Every draft this play creates must append a row to [[../../50_Intel/methodology/measurement-log]] with `play_source = vertical-saturation-hunt`.
+
+| month | vertical | companies mapped | top 25 staged | drafts sent | replies | meetings |
+|---|---|---|---|---|---|---|

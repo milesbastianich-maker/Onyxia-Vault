@@ -25,11 +25,13 @@ Model: `claude-sonnet-4-6`.
 
 ## Trigger IDs
 
-_Pending. RemoteTrigger API was not reachable from the creation session on 2026-04-21. Re-run the wiring step when the API is back up. IDs land here once the API returns them._
+Wired 2026-04-22 via RemoteTrigger API.
 
-- Daily Signal Scan: `PENDING`
-- Weekly Vertical Trends: `PENDING`
-- Monthly Regulatory Refresh: `PENDING`
+- Daily Signal Scan: `trig_016oRmWHLmuEjhNHcEQiesJH` — first fire 2026-04-22 06:35 EDT
+- Weekly Vertical Trends: `trig_01BdctJWPma1eVLcLUfdF6rr` — first fire 2026-04-27 08:02 EDT Mon
+- Monthly Regulatory Refresh: `trig_01NeJDYcKGHpayZxc7EeBi3G` — first fire 2026-05-01 08:02 EDT
+
+Manage at https://claude.ai/code/scheduled.
 
 ## What each trigger writes
 
