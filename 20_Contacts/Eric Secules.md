@@ -10,7 +10,8 @@ role_in_deal: influencer
 zoominfo_id: 3798906137
 synced_at: 2026-04-21
 accuracy_score: 99
-tags: [contact, territory-conflict]
+tags: [contact, active]
+owner: miles
 ---
 
 # Eric Secules
@@ -26,27 +27,22 @@ Director, Digital Forensics Manager at SMBC Group (Sumitomo Mitsui Banking Corpo
 ## Visit signal
 First identified via RB2B visiting onyxia.io on 2026-04-20 at 11:20 AM EDT.
 
-## Territory flag
-**SMBC Group (Sumitomo Mitsui Banking) is already in HubSpot as `Sumitomo Mitsui Banking` (ID 13070669927, domain smbcgroup.com), owned by Brad Baldelli (77002456). 10 associated contacts.**
-
-Multiple Sumitomo entities (Trust Bank, Pharma, Chemical, Insurance) are all owned by Brad as well. SMBC Aviation Capital (smbc.aero) is the one exception — recently created 2026-04-20, no owner.
-
-Eric is in Brad's territory. Decision needed: coordinate with Brad to pass the lead, or route Miles to SMBC Aviation Capital which is the unowned Sumitomo entity.
+## Territory status
+Resolved 2026-04-22. Miles confirmed Brad does not care about SMBC. Eric is Miles's to work. No coordination DM required.
 
 ## History
 - 2026-04-20 11:20 AM: visited onyxia.io (RB2B)
 - 2026-04-21: surfaced by intent-signal hunt, territory conflict flagged
 - 2026-04-22: pending ZoomInfo re-verification of current employer (sub-agent ZoomInfo MCP not loaded this session, re-verify from main thread)
+- 2026-04-22: Miles cleared territory. Brad passed. Miles owns.
 
 ## Notes
 Do not draft outreach without resolving territory. Post-resolution: Eric's role (digital forensics) makes him an influencer, not a decision-maker. If Brad's team is working SMBC, he is a technical-champion candidate.
 
-## Proposed Slack DM to Brad (awaiting Miles approval)
+## Next moves
 
-Target: Brad Baldelli. Channel: DM. Draft, not sent.
+Brad-coordination draft killed 2026-04-22 (territory cleared). Eric is a technical-influencer fit per `[[../50_Intel/personas/vp-security]]` and `[[../40_Plays/hunt/intent-signal-hunt]]`. Before any outreach:
 
-> Brad, quick one on SMBC. RB2B caught Eric Secules (Digital Forensics Director at SMBC) visiting onyxia.io Mon 4/20. You own the Sumitomo entities in HubSpot (10 contacts on SMBC, plus Trust, Pharma, Chemical, Insurance). Coordinate or pass? Happy either way. If you are already working it, I will stand down. If SMBC is cold for you, Eric is a technical-influencer fit for intent-signal-hunt and I can take him.
-
-Word count: 75. CTA tier: passive (coordination, not sell). Voice rule check: no em dashes, no corporate jargon.
-
-Hard rule per autonomy matrix: Slack messages to anyone other than Miles require approval. Post the above text to `#miles-ai-ops` asking Miles to ✅ before it goes to Brad.
+1. ZoomInfo re-verify current employer + email accuracy (main thread, next pass).
+2. Draft cold email referencing the RB2B visit + [[../50_Intel/verticals/financial-services|fins vertical]] trigger events (SEC cyber rule, NYDFS Part 500 Nov 2025 amendment).
+3. Multi-thread at draft time per `[[../90_Templates/tpl-account]]` — if Eric is influencer not decision-maker, seed 2-3 parallel drafts to CISO/CRO peers at SMBC.
