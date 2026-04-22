@@ -33,19 +33,21 @@ Single source of truth for every outbound touch and its follow-up cadence. Sort 
 
 Staged via second hunt of the day. Drafts being created by hardened `onyxia-drafter` sub-agent with all 9 gates (Level 3+ personalization, avoid-ai-writing ≥4, 8-criteria rubric ≥4, em-dash zero, Register-B grep zero, source-citation HTML comment mandatory). Touch-tracker rows will be updated with Gmail draft IDs when the sub-agent reports.
 
-**Status: 8 of 9 drafts STAGED in Gmail drafts folder. Scored 8/8 on the 8-criteria rubric across all 8. Zero em dashes, zero Register-B, zero banned phrases. Awaiting Miles ✅ to send.**
+**Status: 8 drafts REWRITTEN 2026-04-22 17:11 UTC per Miles's 3-variant critique (Question-led / Tightened / Acknowledge-the-cold). Zero HTML comments in body, zero em dashes, zero Register-B phrases, every draft has subject + full signature + Onyxia parenthetical explainer + one specific hook + defined problem statement. Awaiting Miles ✅.**
 
-| Subject | Contact | Gmail Draft ID | Score | Trigger |
+| Variant | Subject | Contact | Gmail Draft ID | Trigger |
 |---|---|---|---|---|
-| `first 30 days at FirstEnergy` | [[../../20_Contacts/Brian Harrell]] CSO | `19db62017cf175a2` | 8/8 | new-CSO 2026-03-23 (30d), ex-CISA, ex-Avangrid |
-| `reporting line reshuffle` | [[../../20_Contacts/M. Scott Hipkins]] VP & CISO | `19db6202ee02cbb9` | 8/8 | 22-yr tenure + new-CSO-above-him |
-| `NERC-CIP evidence in the new org` | [[../../20_Contacts/Jason McCormick]] Gov Dir Cyber | `19db62049952796a` | 8/8 | 15-mo governance seat + Brian's first 90d |
-| `20 years of SJI systems` | [[../../20_Contacts/Patrick Finnegan]] VP IS | `19db62060219d46a` | 8/8 | 20-yr tenure + new-CIO Bhupesh transition |
-| `Bhupesh's 90-day list` | [[../../20_Contacts/Sarah Brooks]] Dir Office of CIO | `19db62074b2e5bc8` | 8/8 | direct-report to new CIO + TSA Pipeline May renewal |
-| `stack under TSA Pipeline` | [[../../20_Contacts/Michael Bizzoco]] Service Delivery VP IT | `19db620892726ef7` | 8/8 | TSA Pipeline SD 2021-02F May renewal |
-| `CMMC 7 months out` | [[../../20_Contacts/Jan Mast]] Global Dir Cybersecurity | `19db6209f7e4c5dc` | 8/8 | CMMC Nov 10 (203 days) + UAS/DFARS CUI |
-| `infra signal into Jan's program` | [[../../20_Contacts/Scott Tasem]] Sr Dir IT Infra | `19db620aa8b0a9d4` | 8/8 | CMMC infra-side + Jan Mast named peer |
-| *(pending)* | [[../../20_Contacts/Aniket Majumder]] CIO | — | — | email enrichment blocked (data lag on Dec 2025 promotion) |
+| C Question-led | `first 90 at FirstEnergy` | [[../../20_Contacts/Brian Harrell]] CSO | `19db62cec27fe8f8` | new-CSO 30d, Avangrid→FirstEnergy move |
+| A Tightened | `reporting under the new CSO` | [[../../20_Contacts/M. Scott Hipkins]] VP & CISO | `19db62cfd1f7b188` | new-CSO-above-him + 22-yr tenure + 160-hr quote |
+| C Question-led | `evidence under Brian's first 90` | [[../../20_Contacts/Jason McCormick]] Gov Dir Cyber | `19db62d08f6fc8a2` | governance reset under new CSO |
+| A Tightened | `first audit under Bhupesh` | [[../../20_Contacts/Patrick Finnegan]] VP IS | `19db62d156bdc123` | 20-yr institutional memory for new CIO's first audit |
+| C Question-led | `Bhupesh's 90-day reset` | [[../../20_Contacts/Sarah Brooks]] Dir Office of CIO | `19db62d207bdd315` | direct-report carrying new CIO's reset |
+| B Acknowledge | `TSA Pipeline May renewal` | [[../../20_Contacts/Michael Bizzoco]] Service Delivery VP IT | `19db62d2e4985c04` | TSA Pipeline SD 2021-02F May renewal |
+| C Question-led | `CMMC Level 2 by Nov 10` | [[../../20_Contacts/Jan Mast]] Global Dir Cybersecurity | `19db62d3b0c97dd2` | CMMC Nov 10 (203 days), role-match, peer-call |
+| B Acknowledge | `CMMC evidence from infra` | [[../../20_Contacts/Scott Tasem]] Sr Dir IT Infra | `19db62d46b711555` | CMMC infra-pull forcing date |
+| *(pending)* | — | [[../../20_Contacts/Aniket Majumder]] CIO | — | email enrichment blocked (data lag on Dec 2025 promotion) |
+
+**What changed vs prior pass:** greeting-less research-dump openers replaced with question-led / acknowledgment-led / tightened verbs. Every draft gained an Onyxia parenthetical explainer. One specific hook per email (not three stacked). Defined problem statements. Exit ramps on C-variant drafts. All subject lines and signatures verified present.
 
 **Bonus draft spotted in Gmail drafts folder** (auto-drafted by another agent earlier):
 - `RE: Onyxia <> MHIA: Follow up & Next steps` → Lucas Parker / MHIA. ID `19db611c49437b3c`. Contains `[MILES: insert status — redlines coming / clean / sent to legal — and target date before sending.]` placeholder. **Miles must fill the placeholder before sending.**
