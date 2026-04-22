@@ -62,9 +62,8 @@ tags: [lesson, capability-expansion]
 1. **Most "closed-won" deals have no cold-email ancestor in HubSpot.** 8 of 23 have zero email engagement logged. Of the 15 with threads, 11 start mid-conversation (post-meeting follow-up). Only 2 deals (CWT, Chipotle) show true cold outbound in HubSpot. This means the "winning-openers corpus" is mostly warm motion and follow-up hygiene, not cold hook language. The implication for Miles: his Gmail sent folder is likely the higher-fidelity source for cold-hook patterns than the HubSpot corpus. That pull is the next-session target.
 2. **CEO cold outbound reads differently than rep cold outbound.** Sivan's verbatim "As a former CISO…" opener is load-bearing in a way a rep cannot replicate without Sivan-as-peer anchoring. This justifies the Sivan peer-intro play's central role in the operator stack.
 3. **11x.ai's redesign of Alice into multi-agent after monolithic context loss** mirrors Onyxia's existing shift architecture. Specialist sub-agents at the capability-axis (shipped this session) complete the pattern at both time-axis and capability-axis. This is the first architectural insight I can point to with external validation.
-4. **"Solomon Rozental" appears in `reference_onyxia_exclusions.md` as hard-exclude, but in the user brief as a colleague.** This contradiction was not resolved this session. Flagged for Miles.
-5. **Prysm vs Sorso naming contradiction.** Memory file `project_sorso.md` references "Sorso" wine SaaS; user brief mentions "Prysm" restaurant SaaS. Same domain (side-project SaaS). Likely a pivot. Reconcile next session if Miles wants memory updated.
-6. **Vault moved significantly past 2026-04-22 daily log.** Six vertical files, 11 competitors, 4 personas, 15 accounts, 32 contacts, signal-intelligence spec (799 lines), top-10 hunt queue all existed before this session. The brief's carry-over list was stale. Lesson for next brief: read `git log` on the vault first, not just memory files.
+4. **Solomon Rozental resolved:** ex-Onyxia, terminated. Exclusion list updated with explicit ex-employee context. Brief reference to him as "colleague" was stale.
+5. **Vault moved significantly past 2026-04-22 daily log.** Six vertical files, 11 competitors, 4 personas, 15 accounts, 32 contacts, signal-intelligence spec (799 lines), top-10 hunt queue all existed before this session. The brief's carry-over list was stale. Lesson for next brief: read `git log` on the vault first, not just memory files.
 
 ## Highest-conviction asks for Miles
 
@@ -94,10 +93,9 @@ At session end I can additionally:
 1. **Miles's Gmail sent folder 90-day opener pull.** Run through `onyxia-researcher`. Land findings in `winning-openers.md` + `power-phrases.md`.
 2. **Complete the signal-intelligence n8n build** — tasks 2-11 of the plan, everything except the Anthropic-key-gated Task 1 Step 2 + Task 7.
 3. **Resolve Solomon exclusion contradiction.** Requires Miles.
-4. **Reconcile Prysm vs Sorso memory.** Requires Miles, 30 seconds.
-5. **Prototype the reply-intent confidence thresholds** per `external-patterns.md` recommendation. This is the single highest-leverage technique from competitor-agent research and it hits Miles every day in his inbox.
-6. **First live invocation of `onyxia-drafter`** on a real account in this week's MOC. Medusind / Megan Marshall is the natural candidate since the draft is already flagged as a 2026-04-22 carry-over.
-7. **Weekly review via the `weekly-pipeline-review` skill** on Friday. Ideally the skill's first real fire.
+4. **Prototype the reply-intent confidence thresholds** per `external-patterns.md` recommendation. This is the single highest-leverage technique from competitor-agent research and it hits Miles every day in his inbox.
+5. **First live invocation of `onyxia-drafter`** on a real account in this week's MOC. Medusind / Megan Marshall is the natural candidate since the draft is already flagged as a 2026-04-22 carry-over.
+6. **Weekly review via the `weekly-pipeline-review` skill** on Friday. Ideally the skill's first real fire.
 
 ---
 

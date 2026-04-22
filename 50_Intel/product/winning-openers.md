@@ -167,7 +167,113 @@ First-message body after intro meeting. Same pattern Brian used at WellStar, Mil
 
 ## Gaps to fill next session
 
-- Pull Miles's own Gmail sent folder for his 90-day opener patterns. Miles has 0 direct HubSpot wins logged, so his voice is not represented in the above. This is the biggest remaining gap.
+- ~~Miles Gmail sent folder pull~~ — **done this session**. See "Miles's own cold-email corpus" section below.
 - Log the 8 zero-engagement wins manually so the vault knows what closed them (peer intro, RSAC, partner referral, etc.). Decision for Miles: is it worth the backfill?
 - Pull the Chipotle walnut.io demo-request thread to understand the inbound flow that converted.
 - Confirm with Maura, Brad, Brian, Yosef whether any cold outbound was sent via a non-HubSpot tool (Apollo, Outreach) and thus missing from this corpus.
+
+---
+
+## Miles's own cold-email corpus (pulled 2026-04-22, Gmail sent, 90d)
+
+Miles has sent 50+ personalized cold outbound in the last 24 hours. Distinct voice from the Maura/Brad/Sivan/Brian corpus. Two registers:
+
+- **Register A — high-fidelity personalized.** First-name-first opener, concrete company fact in sentence 1 (exact employee count, recent news, settlement amount, role transition), Miles signature prose, verbatim 160-hour customer quote, peer-call CTA.
+- **Register B — template sequences.** "[Name] — [hook] @ [Company]" subject, casual "Hi/Hey" open, templated problem frame, lower fidelity but high volume. Uses em dashes.
+
+**Voice-rule note:** The no-em-dashes rule in `forbidden-words.md` applies to agent-written drafts. Miles himself uses em dashes in his own prose. Leave both in place — the rule targets AI tells, not Miles's natural voice.
+
+### Four verbatim Register-A openers (healthcare + fins)
+
+**1. Andrew Puller — MedStar — Subject: `160 hours a month`**
+
+> Andrew,
+>
+> Reporting-layer burden is the quiet killer for CISOs at your scale. One of our healthcare customers (13,000+ employees, multi-region) put it this way:
+>
+> "With Onyxia, we are able to save at least 160 working hours a month that one full-time analyst would traditionally spend on manual reporting and instead, focus more time on our actual risk management strategy."
+>
+> Sivan Tehila, our CEO, was a CISO before building this.
+>
+> Worth 15 minutes next Tuesday or Thursday to compare notes?
+>
+> Miles Bastianich
+> Onyxia Cyber
+
+**2. Megan Marshall — Medusind — Subject: `after the settlement`**
+
+> Megan,
+>
+> Saw the final settlement payout went out on the 10th. $5M is a concrete number for the board to hold against whatever security investment comes next.
+>
+> Our CEO Sivan Tehila is a former CISO. She built Onyxia so that GCs and CISOs at healthcare orgs can share one real-time picture of risk, and auto-generate the board reporting that gets asked for after an incident like this. Your team at Medusind is already working with our side on the CISO track.
+>
+> Worth a short call to compare notes on what post-settlement reporting looks like in your board packet?
+>
+> Miles Bastianich
+> Onyxia Cyber
+> 203-524-8880
+
+**3. Marlon Clarke — Cross Country Healthcare — Subject: `Chris Tyrell's first 90 days`**
+
+> Marlon,
+>
+> Saw the announcement on Chris Tyrell joining as CIO yesterday. New-CIO windows reset the board-reporting expectations in a hurry.
+>
+> A healthcare CISO at a 13,000-employee system told us:
+>
+> "With Onyxia, we are able to save at least 160 working hours a month that one full-time analyst would traditionally spend on manual reporting and instead, focus more time on our actual risk management strategy."
+>
+> Our CEO Sivan Tehila is a former CISO. She does a 20-minute peer call with folks navigating moments like this. Not a demo.
+>
+> Want me to set it up?
+>
+> Miles Bastianich
+> Onyxia Cyber
+
+**4. Leilani Farol — First Horizon Bank — Subject: `the first 90 days at First Horizon`**
+
+> Leilani,
+>
+> Congrats on the CISO role at First Horizon. Moving from GRC at Fidelity to owning the full security program at an $84B-asset bank is a different animal — especially with SEC cyber disclosure rules tightening the reporting window.
+>
+> Sivan Tehila, our CEO and former CISO, built Onyxia specifically for this moment: normalizing data across the existing stack and auto-generating board-ready compliance reporting so your team isn't burning cycles on it manually.
+>
+> Curious if that's on your radar as you're setting strategy?
+>
+> Miles Bastianich
+> Onyxia Cyber
+> 203-524-8880
+
+### Miles Register-A structural pattern
+
+1. **Sentence 1:** First-name-only open. No "Hi," no "Hope you're well." Just `<First>,`.
+2. **Sentence 2 (the hook):** Concrete fact about their company. Settlement amount + date. Exact employee count. Recent announcement. Role transition with specific prior role. Never generic.
+3. **Sentence 3 (pattern statement):** A Miles signature framing that lands the problem: "Reporting-layer burden is the quiet killer for CISOs at your scale." / "New-CIO windows reset the board-reporting expectations in a hurry." / "Moving from X to Y is a different animal."
+4. **Verbatim customer quote** (block-quote formatted) — the 160-hours line, every time, for healthcare. First sentence of the quote block identifies the customer's profile ("healthcare CISO at a 13,000-employee system").
+5. **Sivan-as-former-CISO line.** Single sentence. "Sivan Tehila, our CEO, was a CISO before building this." or "Our CEO Sivan Tehila is a former CISO."
+6. **CTA.** Peer-call framing ("compare notes," "20-minute peer call") OR curiosity-check ("Curious if that's on your radar"). "Want me to set it up?" is a strong single-sentence CTA variant.
+7. **Signature:** `Miles Bastianich / Onyxia Cyber` + phone number (203-524-8880) when the CTA is high-commitment.
+
+### Miles Register-B subject-line taxonomy
+
+`<First Name> — <hook> <verb> <Company>`. Seven observed hooks, all used as named sequences:
+
+| Hook | When used | Example |
+|---|---|---|
+| "a map for the security stack" | tool-sprawl targets, SaaS/mid-market | Brian — a map for the security stack |
+| "CPM for <Company>" | financial services | Kevin — CPM for Daybright Financial |
+| "stack sprawl @ <Company>?" | fast-growth tech/SaaS | Emilio — stack sprawl @ Datadog? |
+| "audit-season prep made boring" | consulting + client-data-heavy | Ramana — audit-season prep made boring |
+| "your board deck on autopilot?" | large enterprise CISO | Laura — your board deck on autopilot? |
+| "proving the security program at <Company>" | regulated, audit-heavy | Igor — proving the security program at SUNY Downstate |
+| "visibility across the <Company> stack" | consumer brands | Darren — visibility across the Parx Casino stack |
+| "the <Company> tool stack dilemma" | SaaS/media | Nick — the Olo tool stack dilemma |
+| "CPM built for CISOs/CSOs" | regulated-industry-translation angle | Alyssa — CPM built for CISOs |
+
+### What this adds vs the other-owner corpus
+
+- **First-name-no-salutation** opener is a Miles convention. Maura/Brad use "Hi <First>,". Miles in Register A uses just `<First>,`. Drops one line of filler.
+- **Pattern-statement signature lines** are Miles's high-fidelity weapon. The other-owner corpus leans on "Sivan built this for…" as the anchor. Miles leads with his own framing, then lands Sivan.
+- **Verbatim 160-hour quote usage rate** is higher in Miles's corpus than anyone else's. Right discipline.
+- **Trigger-event specificity is sharper.** "Saw the final settlement payout went out on the 10th. $5M is a concrete number" beats "post-breach framing." Vault future drafts should match that specificity floor.

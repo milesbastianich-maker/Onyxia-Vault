@@ -11,6 +11,10 @@ tags: [intel, product]
 
 Words and phrases Miles never writes in outbound to security buyers. Auto-reject any draft that contains them. Compiled from the closed vocabulary in `00_Index/CLAUDE.md`, the `feedback_email_engine.md` memory, and contemporary CISO tell-tale lists.
 
+## Note on em dashes
+
+Em dashes are banned in AGENT-written drafts (they are a tell). Miles's own prose uses em dashes naturally. When editing Miles's copy, preserve his em dashes. When writing as the drafter sub-agent, do not introduce them.
+
 ## Corporate jargon (auto-reject)
 
 - leverage (as a verb) → use

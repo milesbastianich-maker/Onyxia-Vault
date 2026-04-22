@@ -121,9 +121,67 @@ From contemporary CISO public posts (late 2025 / early 2026 scan). Use sparingly
 
 The last one is particularly load-bearing for Onyxia's positioning — we're a layer, not another tool.
 
-## Miles-specific voice anchors
+## Miles-specific voice anchors (from Gmail sent pull 2026-04-22)
 
-_To be filled from Miles's own Gmail sent folder when that pull runs. Currently vault-silent on Miles's own winning openers — he has 0 direct HubSpot wins yet._
+### Signature pattern-statement lines (use verbatim)
+
+- "Reporting-layer burden is the quiet killer for CISOs at your scale." (Andrew Puller / MedStar)
+- "New-CIO windows reset the board-reporting expectations in a hurry." (Marlon Clarke / Cross Country)
+- "Moving from [prior role] at [prior company] to owning the full security program at [new company] is a different animal." (Leilani Farol / First Horizon)
+- "Director-level is where the actual board-reporting labor lives. Analysts build the slides, you review, the CISO ships." (John Sherouse / WellSpan)
+- "At [employee count] [Company] has a stakeholder map that compounds. Board, audit, joint commission, payer certifications. Every framework doubles the work." (Daniel / Advocate)
+- "Financial-services CISOs have the rough job of explaining cybersecurity effectiveness to people who'd rather talk about returns."
+- "Security leaders at fast-moving shops like [Company] tend to inherit a toolbox that grew faster than the playbook. Twenty-plus tools, three that overlap, two that nobody's quite sure are still live."
+- "CISOs in regulated industries end up doing a lot of translation — from security data to risk language to board language. Time-consuming, and the translation layer is where things go wrong."
+- "Running security in a client-data-heavy environment like [Company] means every audit or client security questionnaire becomes a mini fire drill."
+
+### Miles CTA variants (ranked by commitment)
+
+1. "Worth 15 minutes next Tuesday or Thursday to compare notes?" — specific, time-bounded, peer-call framing.
+2. "Worth a short call to compare notes on what [specific topic] looks like in your [specific context]?" — topic-anchored.
+3. "Want me to set it up?" — assumed close, used when offering Sivan peer call.
+4. "Curious if that's on your radar as you're setting strategy?" — low-friction, new-role prospects.
+
+### Miles signature
+
+For high-commitment sends (peer call proposed, post-settlement, regulatory-deadline):
+```
+Miles Bastianich
+Onyxia Cyber
+203-524-8880
+```
+
+For Register-B sequences:
+```
+Miles Bastianich
+Onyxia Cyber
+```
+
+### Miles opener format (Register A)
+
+First-name-first, no "Hi / Hello / Hey." The name IS the opener.
+
+```
+<First>,
+
+<Sentence anchored in a specific fact — exact employee count, specific recent news, exact dollar amount, role transition with prior role named>
+
+<Miles pattern-statement line from the list above>
+
+<Verbatim customer quote as block quote, healthcare = 160-hour quote>
+
+<Sivan-as-former-CISO single sentence>
+
+<CTA from the list above>
+
+Miles Bastianich
+Onyxia Cyber
+[phone if high commitment]
+```
+
+### Em dashes clarification
+
+Miles uses em dashes in his own prose. The "no em dashes" rule in `forbidden-words.md` targets AI-writing tells, not Miles's natural voice. When drafting FOR Miles, preserve em-dash usage if it matches his register. When auditing for AI tells, em dashes in agent-generated copy remain forbidden.
 
 ## Cross-references
 
