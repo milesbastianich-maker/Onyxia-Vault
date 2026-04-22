@@ -52,6 +52,27 @@ Staged via second hunt of the day. Drafts being created by hardened `onyxia-draf
 **Bonus draft spotted in Gmail drafts folder** (auto-drafted by another agent earlier):
 - `RE: Onyxia <> MHIA: Follow up & Next steps` → Lucas Parker / MHIA. ID `19db611c49437b3c`. Contains `[MILES: insert status — redlines coming / clean / sent to legal — and target date before sending.]` placeholder. **Miles must fill the placeholder before sending.**
 
+## 🆕 Open-season hunt 2026-04-22 (cross-vertical, drafts pending in Gmail)
+
+Staged via third hunt of the day per Miles "everything is open season unless deal or <60d activity." 10 drafts created via hardened `onyxia-drafter`, all rubric-scored ≥4, zero HTML comments in body, zero em dashes, Register-A voice. Awaiting Miles ✅.
+
+| Variant | Subject | Contact | Gmail Draft ID | Trigger |
+|---|---|---|---|---|
+| Tightened | `NYDFS Part 500 translation layer` | [[../../20_Contacts/Donna Hart]] CISO Americas | `r-4205442492655175834` | tenured regional CISO at Japanese global bank (SMBC, TSE:8316), JFSA+OCC+NYDFS translation layer |
+| Question-led | `four months in at Ryerson` | [[../../20_Contacts/Frank Williams]] CIO | `r8626290418851520272` | 4-month new-CIO at $4.47B industrial metals (NYSE:RYI) |
+| Tightened | `two control stacks, one CMMC deadline` | [[../../20_Contacts/Tacuma King]] CSO | `r4151861186854085422` | tenured CSO through Vectrus-Vertex merger + CMMC Nov 10 (V2X, NYSE:VVX) |
+| Question-led | `NERC CIP reporting, five months in` | [[../../20_Contacts/Bradley Krol]] VP & CTO | `r2756960145845352648` | 5-month new-CTO at $9.36B multi-state utility (NYSE:CNP), NERC CIP + FERC 887 |
+| Question-led | `digital + IT under one mandate at BioMarin` | [[../../20_Contacts/Arpit Davé]] EVP & CDIO | `r5622337655609398705` | 3-month new-EVP combined digital+IT at rare-disease pharma (NASDAQ:BMRN), FDA+GxP+HIPAA+GDPR |
+| Question-led | `three weeks in at Crawford` | [[../../20_Contacts/Jemin Thakkar]] Global CIO | `r-2541764596553226423` | 3-week brand-new Global CIO at largest public independent claims manager (NYSE:CRD.A) |
+| Tightened | `per-district vendor certification at scale` | [[../../20_Contacts/Kara Schlageter]] CISO | `r-6670000607494017870` | K-12 edtech per-district FERPA/COPPA/SOPIPA/Ed Law 2-d/SOPPA surface |
+| Question-led | `six weeks in, DoD-funded research in scope` | [[../../20_Contacts/Donna Tatro]] CISO | `r4166988275864098148` | 6-week new-CISO at Ivy R1 with DoD-funded research (NIST 800-171 + ITAR/EAR) |
+| Question-led | `GLBA + HIPAA under one CIO seat at FDU` | [[../../20_Contacts/Sean Jameson]] VP & CIO | `r1761109853751103890` | 6-week new-VP-CIO at mid-market teaching university, FERPA+GLBA+HIPAA with no CISO below |
+| Question-led | `when your clients' SIGs become your problem` | [[../../20_Contacts/Christopher Hickok]] VP & CIO | `r837807929115371715` | 5-month new-CIO at GC serving healthcare+higher-ed clients, SIG/CAIQ burden cascade |
+
+**Princeton flag:** 2 HubSpot records at dealstage `58503741`, last-modified 2024-08 and 2025-10. Likely stale closed-lost. Verify stage label; if active, kill draft `r4166988275864098148`.
+
+**V2X flag:** Mike Uster (CIO) staged as Rank 2 contact, email `mike.uster@gov2x.com` format-guessed; needs verify before second-touch.
+
 ## 🟡 PRIORITY — next 7 days
 
 | account | contact | touch# | last_touch | next_touch_date | next_touch_plan | owner | notes |
