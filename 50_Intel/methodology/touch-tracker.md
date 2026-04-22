@@ -33,17 +33,22 @@ Single source of truth for every outbound touch and its follow-up cadence. Sort 
 
 Staged via second hunt of the day. Drafts being created by hardened `onyxia-drafter` sub-agent with all 9 gates (Level 3+ personalization, avoid-ai-writing ≥4, 8-criteria rubric ≥4, em-dash zero, Register-B grep zero, source-citation HTML comment mandatory). Touch-tracker rows will be updated with Gmail draft IDs when the sub-agent reports.
 
-| account | contact | touch# | personalization_level | trigger | next_touch_date | status |
-|---|---|---|---|---|---|---|
-| [[../../10_Accounts/FirstEnergy]] | [[../../20_Contacts/Brian Harrell]] CSO | 1 | L4 (30-day-new-CSO, ex-CISA, ex-Avangrid move) | new-CSO 2026-03-23 | 2026-04-23 | draft-in-progress |
-| [[../../10_Accounts/FirstEnergy]] | [[../../20_Contacts/M. Scott Hipkins]] VP & CISO | 1 | L3 (22-yr tenure + new-CSO-above-him dynamic) | org-shift post Brian arrival | 2026-04-23 | draft-in-progress |
-| [[../../10_Accounts/FirstEnergy]] | [[../../20_Contacts/Jason McCormick]] Gov Dir Cyber | 1 | L3 (15-mo-in governance seat) | NERC-CIP evidence + Brian's first 90d | 2026-04-23 | draft-in-progress |
-| [[../../10_Accounts/SJI]] | [[../../20_Contacts/Patrick Finnegan]] VP IS | 1 | L4 (20-yr tenure, institutional memory for new CIO Bhupesh) | new-CIO Bhupesh Arora 2025-12-31 | 2026-04-23 | draft-in-progress |
-| [[../../10_Accounts/SJI]] | [[../../20_Contacts/Sarah Brooks]] Dir Office of CIO | 1 | L4 (direct report to Bhupesh) | Bhupesh 90-day reset | 2026-04-23 | draft-in-progress |
-| [[../../10_Accounts/SJI]] | [[../../20_Contacts/Michael Bizzoco]] Service Delivery VP IT | 1 | L3 | TSA pipeline SD | 2026-04-23 | draft-in-progress |
-| [[../../10_Accounts/AeroVironment]] | [[../../20_Contacts/Jan Mast]] Global Dir Cybersecurity | 1 | L4 (role-match champion) | CMMC Nov 10 + UAS/DFARS | 2026-04-23 | draft-in-progress |
-| [[../../10_Accounts/AeroVironment]] | [[../../20_Contacts/Scott Tasem]] Sr Dir IT Infra | 1 | L3 | CMMC + infrastructure-side-of-Jan | 2026-04-23 | draft-in-progress |
-| [[../../10_Accounts/AeroVironment]] | [[../../20_Contacts/Aniket Majumder]] CIO | pending | — | new-CIO promotion Dec 2025 | blocked | email-pending-enrichment |
+**Status: 8 of 9 drafts STAGED in Gmail drafts folder. Scored 8/8 on the 8-criteria rubric across all 8. Zero em dashes, zero Register-B, zero banned phrases. Awaiting Miles ✅ to send.**
+
+| Subject | Contact | Gmail Draft ID | Score | Trigger |
+|---|---|---|---|---|
+| `first 30 days at FirstEnergy` | [[../../20_Contacts/Brian Harrell]] CSO | `19db62017cf175a2` | 8/8 | new-CSO 2026-03-23 (30d), ex-CISA, ex-Avangrid |
+| `reporting line reshuffle` | [[../../20_Contacts/M. Scott Hipkins]] VP & CISO | `19db6202ee02cbb9` | 8/8 | 22-yr tenure + new-CSO-above-him |
+| `NERC-CIP evidence in the new org` | [[../../20_Contacts/Jason McCormick]] Gov Dir Cyber | `19db62049952796a` | 8/8 | 15-mo governance seat + Brian's first 90d |
+| `20 years of SJI systems` | [[../../20_Contacts/Patrick Finnegan]] VP IS | `19db62060219d46a` | 8/8 | 20-yr tenure + new-CIO Bhupesh transition |
+| `Bhupesh's 90-day list` | [[../../20_Contacts/Sarah Brooks]] Dir Office of CIO | `19db62074b2e5bc8` | 8/8 | direct-report to new CIO + TSA Pipeline May renewal |
+| `stack under TSA Pipeline` | [[../../20_Contacts/Michael Bizzoco]] Service Delivery VP IT | `19db620892726ef7` | 8/8 | TSA Pipeline SD 2021-02F May renewal |
+| `CMMC 7 months out` | [[../../20_Contacts/Jan Mast]] Global Dir Cybersecurity | `19db6209f7e4c5dc` | 8/8 | CMMC Nov 10 (203 days) + UAS/DFARS CUI |
+| `infra signal into Jan's program` | [[../../20_Contacts/Scott Tasem]] Sr Dir IT Infra | `19db620aa8b0a9d4` | 8/8 | CMMC infra-side + Jan Mast named peer |
+| *(pending)* | [[../../20_Contacts/Aniket Majumder]] CIO | — | — | email enrichment blocked (data lag on Dec 2025 promotion) |
+
+**Bonus draft spotted in Gmail drafts folder** (auto-drafted by another agent earlier):
+- `RE: Onyxia <> MHIA: Follow up & Next steps` → Lucas Parker / MHIA. ID `19db611c49437b3c`. Contains `[MILES: insert status — redlines coming / clean / sent to legal — and target date before sending.]` placeholder. **Miles must fill the placeholder before sending.**
 
 ## 🟡 PRIORITY — next 7 days
 
