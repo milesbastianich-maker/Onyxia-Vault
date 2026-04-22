@@ -82,7 +82,7 @@ Sort order: `next_touch_date` ASC. Auto-update runbook documented but **not live
 
 **None as Gmail drafts tonight.** Reason: all 22 cold sends are <5 days old (earliest is 2026-04-21, today is 2026-04-22). Day-5 bumps trigger 2026-04-26 through 2026-04-28. Queuing tonight would create drafts that sit for 4+ days and drift from the personalization source's freshness.
 
-**Bump/breakup templates (per vertical) — being written by sub-agent right now.** 4 verticals × (1 bump + 1 breakup) = 8 new templates appending to the existing sequence files. Will update this report with the sub-agent's deliverables when complete.
+**Bump/breakup templates (per vertical) — SHIPPED.** 8 templates appended to the 4 sequence files (healthcare, fins, mfg, ci). Average rubric score 4.88/5 across all 8. Zero em dashes in bodies. CTAs distinct per vertical (`Open to 20 minutes?` / `Grab 20 minutes this week?` / `Want 20 minutes?` / `Can I send a one-pager?`). Breakups all use future-trigger invites, no hard asks. Regulatory anchors: HIPAA NPRM May 2026 + OCR Phase 3 (healthcare), NYDFS Part 500 April 15 cert + SEC 8-K Item 1.05 (fins), CMMC Nov 10 + C3PAO capacity + NIST IR 8183r2 (mfg), CISA KEV + CIP-007 R2 + TSA Surface Transportation NPRM (ci).
 
 **Research requests (Level-3 gated drafts that need human input before they can ship):**
 - Glenn Haddock / Mustang Cat: email unresolved. ZoomInfo COMPANY_ONLY_MATCH. Recommend routing via David Young (22-year tenure at Mustang Cat) as warm-intro, or LinkedIn connect note.
