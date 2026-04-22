@@ -46,6 +46,7 @@ Bryan McGraw joined as VP IT in Feb 2024, same month as Director Infra Blake Get
 ## Timeline
 
 - 2026-04-22: Staged via mfg hunt. Fit score 4. Coordinated IT-leadership refresh Feb 2024 = good signal.
+- 2026-04-22: Miles SENT first-touch to Bryan McGraw. Subject "168 years of stack at Klein Tools." Draft score 4/5 (awkward noun-pile "stack-archaeology plus principal-ready-reporting combination"). Awaiting reply.
 
 ## Cross-references
 

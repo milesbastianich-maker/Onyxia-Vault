@@ -48,6 +48,7 @@ The champion-grade signal is Adam Petrelle — Director, Information Technology 
 ## Timeline
 
 - 2026-04-22: Staged via mfg hunt. ZoomInfo enrichment. Fit score 5. Adam Petrelle's title is a direct match for Onyxia ICP.
+- 2026-04-22: Miles SENT first-touch to Adam. Subject "compliance across 3 Nordson segments." Draft score 4/5 (minor jargon: "reporting cadence"). Awaiting reply.
 
 ## Cross-references
 

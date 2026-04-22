@@ -49,6 +49,7 @@ Multi-thread 2-3 at staging per `tpl-account.md` + `multi-thread-mapper` skill.
 ## Timeline
 
 - 2026-04-22: Staged via mfg hunt. ZoomInfo scoop 14174162 (Glenn Haddock new CIO Oct 2025). Fit score 5. Multi-thread map set.
+- 2026-04-22: Miles SENT first-touch to Lance Feldhousen. Subject "90 days into Product Support & Tech Services." Draft score 4/5 (generic Sivan sentence). Awaiting reply. Glenn Haddock primary thread still email-pending.
 
 ## Cross-references
 

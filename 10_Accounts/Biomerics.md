@@ -48,6 +48,7 @@ Sits at the intersection of mfg + healthcare. FDA QSR + ISO 13485 + 21 CFR Part 
 ## Timeline
 
 - 2026-04-22: Staged via mfg hunt. Fit score 5. Med-device-mfg intersection validated against `50_Intel/verticals/healthcare.md` + `manufacturing.md`.
+- 2026-04-22: Miles SENT first-touch to Jesse Moore. Subject "Biomerics at the FDA + ISO + BAA intersection." Draft score 3.5/5 (**em dash violation** — "reporting surface — before OSHA"). Awaiting reply. Future agent drafts must route through avoid-ai-writing gate.
 
 ## Cross-references
 

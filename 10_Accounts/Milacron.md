@@ -47,6 +47,7 @@ Jeffrey Mowry started as VP IT July 2025 — 9 months in, exactly inside the 30-
 ## Timeline
 
 - 2026-04-22: Staged via mfg hunt. Fit score 5. Two VP-IT roles in parallel suggests active reorg. Jeffrey Mowry is target 1.
+- 2026-04-22: Miles SENT first-touch to Jeffrey Mowry. Subject "two VPs of IT is a signal." Draft score 4/5 (hedges "specifically" + "quickly"). Awaiting reply.
 
 ## Cross-references
 

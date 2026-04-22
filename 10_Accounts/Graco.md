@@ -48,6 +48,7 @@ Clean mid-market mfg fit. No active trigger event, but Kathryn Schoenrock (EVP &
 ## Timeline
 
 - 2026-04-22: Staged via mfg hunt. Fit score 4. No active trigger; play relies on tenure-break + hours-saved hook.
+- 2026-04-22: Miles SENT first-touch to Kathryn Schoenrock. Subject "Graco's 3 segments and the year-3 CIO review." Draft score 3/5 (**two em dashes** + "at this scale" filler + "specifically" hedge). Lowest-scoring send in the batch. Awaiting reply — if silent, pattern-break at day 14 with a different opener register.
 
 ## Cross-references
 
