@@ -29,6 +29,22 @@ Single source of truth for every outbound touch and its follow-up cadence. Sort 
 | IVISA / Susan Lloyd | susan.lloyd@ivisa.com | reply-confirmed | 2026-04-20 | **2026-04-27 2pm CT** | Meeting booked. Prep needed: address her "tooling = if absolutely needed" soft objection. | Miles | Pappas dinner follow-up. Meeting confirmed at 2pm CT. |
 | Rocket / Mike Madero | mikemadero@rocket.com | reply-friendly | 2026-04-21 | **2026-04-24** | Soft follow-up asking if he's back in office yet. | Miles | Pappas. Replied warm, said will find time back in office. |
 
+## 🆕 CI + DIB hunt 2026-04-22 PM (drafts pending in Gmail)
+
+Staged via second hunt of the day. Drafts being created by hardened `onyxia-drafter` sub-agent with all 9 gates (Level 3+ personalization, avoid-ai-writing ≥4, 8-criteria rubric ≥4, em-dash zero, Register-B grep zero, source-citation HTML comment mandatory). Touch-tracker rows will be updated with Gmail draft IDs when the sub-agent reports.
+
+| account | contact | touch# | personalization_level | trigger | next_touch_date | status |
+|---|---|---|---|---|---|---|
+| [[../../10_Accounts/FirstEnergy]] | [[../../20_Contacts/Brian Harrell]] CSO | 1 | L4 (30-day-new-CSO, ex-CISA, ex-Avangrid move) | new-CSO 2026-03-23 | 2026-04-23 | draft-in-progress |
+| [[../../10_Accounts/FirstEnergy]] | [[../../20_Contacts/M. Scott Hipkins]] VP & CISO | 1 | L3 (22-yr tenure + new-CSO-above-him dynamic) | org-shift post Brian arrival | 2026-04-23 | draft-in-progress |
+| [[../../10_Accounts/FirstEnergy]] | [[../../20_Contacts/Jason McCormick]] Gov Dir Cyber | 1 | L3 (15-mo-in governance seat) | NERC-CIP evidence + Brian's first 90d | 2026-04-23 | draft-in-progress |
+| [[../../10_Accounts/SJI]] | [[../../20_Contacts/Patrick Finnegan]] VP IS | 1 | L4 (20-yr tenure, institutional memory for new CIO Bhupesh) | new-CIO Bhupesh Arora 2025-12-31 | 2026-04-23 | draft-in-progress |
+| [[../../10_Accounts/SJI]] | [[../../20_Contacts/Sarah Brooks]] Dir Office of CIO | 1 | L4 (direct report to Bhupesh) | Bhupesh 90-day reset | 2026-04-23 | draft-in-progress |
+| [[../../10_Accounts/SJI]] | [[../../20_Contacts/Michael Bizzoco]] Service Delivery VP IT | 1 | L3 | TSA pipeline SD | 2026-04-23 | draft-in-progress |
+| [[../../10_Accounts/AeroVironment]] | [[../../20_Contacts/Jan Mast]] Global Dir Cybersecurity | 1 | L4 (role-match champion) | CMMC Nov 10 + UAS/DFARS | 2026-04-23 | draft-in-progress |
+| [[../../10_Accounts/AeroVironment]] | [[../../20_Contacts/Scott Tasem]] Sr Dir IT Infra | 1 | L3 | CMMC + infrastructure-side-of-Jan | 2026-04-23 | draft-in-progress |
+| [[../../10_Accounts/AeroVironment]] | [[../../20_Contacts/Aniket Majumder]] CIO | pending | — | new-CIO promotion Dec 2025 | blocked | email-pending-enrichment |
+
 ## 🟡 PRIORITY — next 7 days
 
 | account | contact | touch# | last_touch | next_touch_date | next_touch_plan | owner | notes |
