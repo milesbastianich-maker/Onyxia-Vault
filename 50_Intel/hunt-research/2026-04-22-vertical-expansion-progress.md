@@ -21,3 +21,10 @@ Key findings:
 Budget: 8/15 Phase 1 tool calls used.
 Next: Phase 2 — synthesize closed-won patterns for non-covered verticals, identify which have ≥2 wins.
 
+### Phase 2 — Closed-won pattern synthesis — COMPLETE
+Shipped: `50_Intel/hunt-research/2026-04-22-closed-won-nonhealthcare-synthesis.md`.
+Non-covered verticals with file-worthy precedent: Real Estate (2 wins), Retail/Hospitality (1 direct + 1 adjacent + 1 pipeline), Legal Services/BigLaw (1 win, 577-day cycle caveat), SaaS/Tech (3 wins, security-vendor exclusion guardrail).
+Verticals to carry into Phase 3: Real Estate, Retail, Legal, SaaS, Higher Ed, Defense.
+Singletons that stay footnotes: Staffing (AXNY), PE (Vista), Agri-Chem (Adama).
+Next: Phase 3 — regulatory tailwind scan for the 6 carrying verticals.
+
