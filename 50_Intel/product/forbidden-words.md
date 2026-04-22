@@ -120,7 +120,29 @@ Security buyers have been pitched these to exhaustion. They signal vendor, not p
 
 ## Anti-patterns specific to Miles's prior drafts
 
-_Populate as rejections land in `60_Lessons/rejections/`. Every 👎 reaction gets a one-line reason captured here + in `40_Plays/rejection-feedback.md`._
+### Register-B mail-merge templates (banned 2026-04-22 by Miles)
+
+If any of these appear in a draft, reject and rewrite as Register-A with one-to-one specificity:
+
+- "tend to inherit a toolbox that grew faster than the playbook"
+- "Twenty-plus tools, three that overlap, two that nobody's quite sure are still live"
+- "your security stack looks less like a tidy pyramid and more like a LinkedIn logo garden"
+- "Financial-services CISOs have the rough job of explaining cybersecurity effectiveness to people who'd rather talk about returns"
+- "Running security in a client-data-heavy environment like [Company] means every audit or client security questionnaire becomes a mini fire drill"
+- "a security surface area that would make most CISOs wince"
+- "end up doing a lot of translation — from security data to risk language to board language"
+- Any subject in the `[First] — [hook] @ [Company]?` or `[First] — CPM for [Company]` or `[First] — a map for the security stack` patterns (see `winning-openers.md` Register-B anti-pattern table)
+
+### What "personalized" actually means (Miles 2026-04-22)
+
+A concrete fact specific to THIS company that could not be said about any other prospect. Examples from Register-A that pass:
+- "Saw the final settlement payout went out on the 10th. $5M is a concrete number for the board to hold against whatever security investment comes next." (Medusind, post-settlement)
+- "Saw the announcement on Chris Tyrell joining as CIO yesterday." (Cross Country, new-CIO 1 day prior)
+- "Moving from GRC at Fidelity to owning the full security program at an $84B-asset bank is a different animal" (Leilani, named prior company + named prior role + named current asset size)
+
+If the opener works with the company name swapped, it fails. Rewrite.
+
+_Future rejections populate here as 👎 reactions land in `60_Lessons/rejections/`. Every 👎 gets a one-line reason captured here + in `40_Plays/rejection-feedback.md`._
 
 ## How to test a draft
 

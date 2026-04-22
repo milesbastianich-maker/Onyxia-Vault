@@ -123,17 +123,27 @@ The last one is particularly load-bearing for Onyxia's positioning — we're a l
 
 ## Miles-specific voice anchors (from Gmail sent pull 2026-04-22)
 
-### Signature pattern-statement lines (use verbatim)
+### Signature pattern-statement lines — Register A only (use verbatim)
+
+Real voice. Each one was written once, for one prospect, anchored in a specific fact about them.
 
 - "Reporting-layer burden is the quiet killer for CISOs at your scale." (Andrew Puller / MedStar)
 - "New-CIO windows reset the board-reporting expectations in a hurry." (Marlon Clarke / Cross Country)
 - "Moving from [prior role] at [prior company] to owning the full security program at [new company] is a different animal." (Leilani Farol / First Horizon)
 - "Director-level is where the actual board-reporting labor lives. Analysts build the slides, you review, the CISO ships." (John Sherouse / WellSpan)
 - "At [employee count] [Company] has a stakeholder map that compounds. Board, audit, joint commission, payer certifications. Every framework doubles the work." (Daniel / Advocate)
-- "Financial-services CISOs have the rough job of explaining cybersecurity effectiveness to people who'd rather talk about returns."
-- "Security leaders at fast-moving shops like [Company] tend to inherit a toolbox that grew faster than the playbook. Twenty-plus tools, three that overlap, two that nobody's quite sure are still live."
-- "CISOs in regulated industries end up doing a lot of translation — from security data to risk language to board language. Time-consuming, and the translation layer is where things go wrong."
-- "Running security in a client-data-heavy environment like [Company] means every audit or client security questionnaire becomes a mini fire drill."
+
+### Banned — Register-B mail-merge phrases (do not use)
+
+These were used across dozens of sends with only the company name swapped. Miles flagged them as awful 2026-04-22. **Any draft containing these phrases must be rewritten from scratch with a specific, concrete, one-to-one hook.**
+
+- ~~"Financial-services CISOs have the rough job of explaining cybersecurity effectiveness to people who'd rather talk about returns."~~
+- ~~"Security leaders at fast-moving shops like [Company] tend to inherit a toolbox that grew faster than the playbook. Twenty-plus tools, three that overlap, two that nobody's quite sure are still live."~~
+- ~~"CISOs in regulated industries end up doing a lot of translation — from security data to risk language to board language."~~
+- ~~"Running security in a client-data-heavy environment like [Company] means every audit or client security questionnaire becomes a mini fire drill."~~
+- ~~"Consumer brands like [Company] tend to have a security surface area that would make most CISOs wince."~~
+- ~~"If [Company] is anything like the other SaaS/media shops I talk to, your security stack looks less like a tidy pyramid and more like a LinkedIn logo garden."~~
+- ~~"CISOs/CSOs in regulated industries end up doing a lot of translation — from security data to risk language to board language."~~
 
 ### Miles CTA variants (ranked by commitment)
 

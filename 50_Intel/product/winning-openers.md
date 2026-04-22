@@ -176,12 +176,14 @@ First-message body after intro meeting. Same pattern Brian used at WellStar, Mil
 
 ## Miles's own cold-email corpus (pulled 2026-04-22, Gmail sent, 90d)
 
-Miles has sent 50+ personalized cold outbound in the last 24 hours. Distinct voice from the Maura/Brad/Sivan/Brian corpus. Two registers:
+Miles has sent 50+ outbound in the last 24 hours. **Only Register A is the real voice. Register B is the anti-pattern Miles wants to kill.**
 
-- **Register A — high-fidelity personalized.** First-name-first opener, concrete company fact in sentence 1 (exact employee count, recent news, settlement amount, role transition), Miles signature prose, verbatim 160-hour customer quote, peer-call CTA.
-- **Register B — template sequences.** "[Name] — [hook] @ [Company]" subject, casual "Hi/Hey" open, templated problem frame, lower fidelity but high volume. Uses em dashes.
+- **Register A — high-fidelity personalized (the real voice).** First-name-first opener, concrete company fact in sentence 1 (exact employee count, recent news, settlement amount, role transition), Miles signature prose, verbatim 160-hour customer quote for healthcare, peer-call CTA. Used on: Andrew/MedStar, Megan/Medusind, Marlon/Cross Country, Leilani/First Horizon, Britani/FMOL, Jessica/OCC, Hunter/Metalex, Gabriella/RGA. Every draft was specific to that prospect.
+- **Register B — banned.** "[Name] — [hook] @ [Company]" subjects with mail-merge bodies. Same sentence, same structure, only name + company swapped. "Security leaders at fast-moving shops like [X] tend to inherit a toolbox that grew faster than the playbook. Twenty-plus tools, three that overlap…" repeated across Warner Music, DigitalOcean, Cyera, Spring Health, URBAN ONE, Grafana, Circle, etc. Miles called this out 2026-04-22 — "the worst things I've ever read, they're all the same, they're not personalized." **Never use this as a voice anchor. Never draft in this register.** Flag in `forbidden-words.md`.
 
-**Voice-rule note:** The no-em-dashes rule in `forbidden-words.md` applies to agent-written drafts. Miles himself uses em dashes in his own prose. Leave both in place — the rule targets AI tells, not Miles's natural voice.
+**Voice-rule note:** The no-em-dashes rule in `forbidden-words.md` applies to agent-written drafts. Miles himself uses em dashes in his own Register-A prose. Preserve his em dashes when editing; do not introduce them when drafting as an agent.
+
+**What Miles actually meant** when sending Register B: personalized hooks for each company's specific context. What shipped: generic template with variables. Gap between intent and output is the lesson. Every cold draft from here on gets the Register-A treatment: specific, concrete, peer-toned, one-to-one.
 
 ### Four verbatim Register-A openers (healthcare + fins)
 
@@ -255,21 +257,21 @@ Miles has sent 50+ personalized cold outbound in the last 24 hours. Distinct voi
 6. **CTA.** Peer-call framing ("compare notes," "20-minute peer call") OR curiosity-check ("Curious if that's on your radar"). "Want me to set it up?" is a strong single-sentence CTA variant.
 7. **Signature:** `Miles Bastianich / Onyxia Cyber` + phone number (203-524-8880) when the CTA is high-commitment.
 
-### Miles Register-B subject-line taxonomy
+### Register-B subject-line taxonomy (ANTI-PATTERN, do not reuse)
 
-`<First Name> — <hook> <verb> <Company>`. Seven observed hooks, all used as named sequences:
+Seven mail-merge hooks Miles used in bulk and flagged as awful 2026-04-22. Kept here only so drafter + auditor sub-agents can detect and reject them. **If a draft subject matches any of these templates with only the company name swapped, reject it and rewrite Register-A.**
 
-| Hook | When used | Example |
-|---|---|---|
-| "a map for the security stack" | tool-sprawl targets, SaaS/mid-market | Brian — a map for the security stack |
-| "CPM for <Company>" | financial services | Kevin — CPM for Daybright Financial |
-| "stack sprawl @ <Company>?" | fast-growth tech/SaaS | Emilio — stack sprawl @ Datadog? |
-| "audit-season prep made boring" | consulting + client-data-heavy | Ramana — audit-season prep made boring |
-| "your board deck on autopilot?" | large enterprise CISO | Laura — your board deck on autopilot? |
-| "proving the security program at <Company>" | regulated, audit-heavy | Igor — proving the security program at SUNY Downstate |
-| "visibility across the <Company> stack" | consumer brands | Darren — visibility across the Parx Casino stack |
-| "the <Company> tool stack dilemma" | SaaS/media | Nick — the Olo tool stack dilemma |
-| "CPM built for CISOs/CSOs" | regulated-industry-translation angle | Alyssa — CPM built for CISOs |
+| Template | Why banned |
+|---|---|
+| "[First] — a map for the security stack" | Same body across Warner Music, DigitalOcean, Cyera, Spring Health, URBAN ONE, Grafana, Savills, Compass, Circle. No personalization. |
+| "[First] — CPM for [Company]" | Same body across Daybright, Blue Owl, Interactive Brokers, Dime, Flagstar, Jefferies. |
+| "[First] — stack sprawl @ [Company]?" | Same body across Datadog, Symphony, Ro. |
+| "[First] — audit-season prep made boring" | Same body across Oliver Wyman, Savills, Zillion. |
+| "[First] — your board deck on autopilot?" | Same body across DTCC, General Atlantic, AmTrust. |
+| "[First] — proving the security program at [Company]" | Same body across SUNY Downstate, Valley Health, ISS. |
+| "[First] — visibility across the [Company] stack" | Same body across Sotheby's, Parx Casino. |
+| "[First] — the [Company] tool stack dilemma" | Same body across Olo, Scholastic, Minute Media. |
+| "[First] — CPM built for CISOs/CSOs" | Same body across Epiq, IMP. |
 
 ### What this adds vs the other-owner corpus
 
