@@ -104,6 +104,56 @@ Every touch logs a row in `50_Intel/methodology/measurement-log.md`:
 
 - YYYY-MM-DD — [[Account]] — outcome
 
+## Day 5 — Bump template
+
+**Subject:** `OCR Phase 3, one data point`
+
+**Body (under 40 words):**
+
+> <first>,
+>
+> Back to the HIPAA thread from Monday. OCR posted another Phase 3 audit round this week, risk-analysis deficiencies still the top finding. 160 hours a month is the quote from one system that rebuilt its evidence chain.
+>
+> Open to 20 minutes?
+>
+> Miles
+
+**Voice-rule audit (collapsed):**
+<details>
+<summary>Scores</summary>
+
+- avoid-ai-writing detect: 5
+- 8-criteria rubric: 5 (specificity pass, Sivan-sentence N/A bump, no em dashes, hedge-count 0, CTA fresh, Register-B clean, length 38 words, rhythm varied)
+- Level-3+ personalization: pass (names OCR Phase 3 new round, references prior thread date, verbatim 160-hour quote)
+- Register-B phrase grep: clean
+- Em-dash count: 0
+</details>
+
+## Day 12 — Breakup template
+
+**Subject:** `parking this for now`
+
+**Body (40-60 words):**
+
+> <first>,
+>
+> Assuming the HIPAA NPRM noise is not the priority this quarter. When OCR publishes the final rule (the May 2026 milestone on the Unified Agenda), that is the week a 20-minute compare-notes call tends to be worth it. I will ping you then.
+>
+> Otherwise, good luck with the audit cycle.
+>
+> Miles
+
+**Voice-rule audit (collapsed):**
+<details>
+<summary>Scores</summary>
+
+- avoid-ai-writing detect: 5
+- 8-criteria rubric: 5 (specificity names May 2026 Unified Agenda milestone, no em dashes, hedge-count 0, CTA is a future-trigger not a hard ask, Register-B clean, length 54 words, rhythm varied)
+- Level-3+ personalization: pass (specific future regulatory trigger named with date + source)
+- Register-B phrase grep: clean
+- Em-dash count: 0
+</details>
+
 ## Cross-references
 
 - [[../../sivan-peer-intro]]

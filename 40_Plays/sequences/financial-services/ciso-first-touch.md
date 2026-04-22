@@ -111,6 +111,58 @@ Same as healthcare. Reference `forbidden-words.md`, quote verbatim from `quotes.
 
 - YYYY-MM-DD — [[Account]] — outcome
 
+## Day 5 — Bump template
+
+**Subject:** `NYDFS April 15 cert`
+
+**Subject (DORA variant):** `DORA register Article 28`
+
+**Body (under 40 words):**
+
+> <first>,
+>
+> Picking up the NYDFS thread. The April 15 Appendix A certification is the first year CISOs own it in writing. The board-reporting requirement is where most programs are behind, not the policy.
+>
+> Grab 20 minutes this week?
+>
+> Basti
+
+**Voice-rule audit (collapsed):**
+<details>
+<summary>Scores</summary>
+
+- avoid-ai-writing detect: 5
+- 8-criteria rubric: 4 (specificity names April 15 + Appendix A, no em dashes, hedge-count 0, CTA differs from healthcare, Register-B clean, length 36 words, rhythm varied; Sivan-sentence N/A for bump)
+- Level-3+ personalization: pass (names NYDFS Part 500 April 15 certification + board-reporting clause, verbatim from regulatory-calendar.md)
+- Register-B phrase grep: clean
+- Em-dash count: 0
+</details>
+
+## Day 12 — Breakup template
+
+**Subject:** `back-burner for now`
+
+**Body (40-60 words):**
+
+> <first>,
+>
+> Assuming this is not the right quarter. If an 8-K Item 1.05 lands on your desk, the 60 days of board read-outs that follow is usually when a 20-minute peer call pays back. Same goes if the next NYDFS amendment drops.
+>
+> Ping me on either and I will come with one slide, not a deck.
+>
+> Basti
+
+**Voice-rule audit (collapsed):**
+<details>
+<summary>Scores</summary>
+
+- avoid-ai-writing detect: 5
+- 8-criteria rubric: 5 (specificity names 8-K Item 1.05 + NYDFS amendment + 60-day window, no em dashes, hedge-count 0, future-trigger invite not hard ask, Register-B clean, length 56 words, rhythm varied)
+- Level-3+ personalization: pass (specific SEC rule subsection + named follow-on regulatory cycle)
+- Register-B phrase grep: clean
+- Em-dash count: 0
+</details>
+
 ## Cross-references
 
 - [[../../../50_Intel/verticals/financial-services]]

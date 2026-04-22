@@ -91,6 +91,56 @@ Sector-regulated. NERC CIP (energy), TSA pipeline rules (transport), CISA KEV ex
 
 - YYYY-MM-DD — [[Account]] — outcome
 
+## Day 5 — Bump template
+
+**Subject:** `CISA KEV, two more this week`
+
+**Body (under 40 words):**
+
+> <first>,
+>
+> Adding to the earlier thread. CISA dropped two more KEV entries since Monday. The regional entity audit question is never about patch speed, it is about what the evidence packet looks like on a CIP-007 R2 review.
+>
+> Can I send a one-pager?
+>
+> Basti
+
+**Voice-rule audit (collapsed):**
+<details>
+<summary>Scores</summary>
+
+- avoid-ai-writing detect: 5
+- 8-criteria rubric: 5 (specificity references CISA KEV cadence + CIP-007 R2 + regional entity audit, no em dashes, hedge-count 0, CTA is one-pager send not meeting ask, Register-B clean, length 38 words, rhythm varied)
+- Level-3+ personalization: pass (CISA KEV daily-drop cadence + NERC CIP-007 R2 named)
+- Register-B phrase grep: clean
+- Em-dash count: 0
+</details>
+
+## Day 12 — Breakup template
+
+**Subject:** `letting this rest`
+
+**Body (40-60 words):**
+
+> <first>,
+>
+> Shelving this. When TSA finalizes the Surface Transportation Cybersecurity Rule (the November 2024 NPRM), or the next time CISA names your sector in an advisory, those are the two moments the evidence-chain conversation tends to land for utility CISOs.
+>
+> Ping me on either. No pitch, just compare notes.
+>
+> Basti
+
+**Voice-rule audit (collapsed):**
+<details>
+<summary>Scores</summary>
+
+- avoid-ai-writing detect: 5
+- 8-criteria rubric: 5 (specificity names TSA Surface Transportation rule + Nov 2024 NPRM + CISA sector advisory, no em dashes, hedge-count 0, future-trigger invite not hard ask, Register-B clean, length 52 words, rhythm varied)
+- Level-3+ personalization: pass (two CI-specific regulatory triggers both from regulatory-calendar.md)
+- Register-B phrase grep: clean
+- Em-dash count: 0
+</details>
+
 ## Cross-references
 
 - [[../../../50_Intel/verticals/critical-infrastructure]]

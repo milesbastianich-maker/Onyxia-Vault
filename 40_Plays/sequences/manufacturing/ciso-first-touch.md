@@ -91,6 +91,56 @@ CMMC is the biggest forcing function through 2026-11-10. Second-biggest: OT-spec
 
 - YYYY-MM-DD — [[Account]] — outcome
 
+## Day 5 — Bump template
+
+**Subject:** `C3PAO wait times update`
+
+**Body (under 40 words):**
+
+> <first>,
+>
+> Back to the CMMC thread. New data point: C3PAO wait times for new clients are projected past 18 months by Q3. With enforcement on November 10, the assessment-slot math is the part of the problem most DIB programs underestimate.
+>
+> Want 20 minutes?
+>
+> Basti
+
+**Voice-rule audit (collapsed):**
+<details>
+<summary>Scores</summary>
+
+- avoid-ai-writing detect: 5
+- 8-criteria rubric: 5 (specificity cites 18-month wait projection + Nov 10 + Q3 timing, no em dashes, hedge-count 0, CTA unique from other verticals, Register-B clean, length 39 words, rhythm varied)
+- Level-3+ personalization: pass (cites C3PAO capacity constraint specifically)
+- Register-B phrase grep: clean
+- Em-dash count: 0
+</details>
+
+## Day 12 — Breakup template
+
+**Subject:** `stepping back on CMMC`
+
+**Body (40-60 words):**
+
+> <first>,
+>
+> No reply so I will assume the CMMC prep is on somebody else's desk right now. When the C3PAO books your Level 2 assessment window, or when NIST IR 8183r2 finalizes on the CSF 2.0 Manufacturing Profile, that is usually when the evidence-chain conversation becomes useful.
+>
+> I will be here either way.
+>
+> Basti
+
+**Voice-rule audit (collapsed):**
+<details>
+<summary>Scores</summary>
+
+- avoid-ai-writing detect: 5
+- 8-criteria rubric: 5 (specificity names C3PAO Level 2 booking + NIST IR 8183r2 + CSF 2.0 Manufacturing Profile, no em dashes, hedge-count 0, future-trigger invite, Register-B clean, length 56 words, rhythm varied)
+- Level-3+ personalization: pass (two vertical-specific regulatory anchors both sourced from regulatory-calendar.md)
+- Register-B phrase grep: clean
+- Em-dash count: 0
+</details>
+
 ## Cross-references
 
 - [[../../../50_Intel/verticals/manufacturing]]

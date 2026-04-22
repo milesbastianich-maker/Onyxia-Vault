@@ -10,8 +10,9 @@ stage: scoping
 status: active
 created: 2026-04-21
 last_touch: 2026-04-20
-next_action: re-engage after MNDA forward, confirm MHI-US security owner
-next_action_date: 2026-04-25
+next_action: REVIEW Lucas Parker's MNDA (sent 2026-04-14) — he bumped Miles 2026-04-20 asking for review
+next_action_date: 2026-04-23
+blocker: miles-review-of-mhia-mnda
 metrics: 
 economic_buyer: _unknown - research needed_
 champion: _unknown - research needed_
@@ -38,10 +39,10 @@ Tier 1 per [[../50_Intel/icp]]: manufacturing vertical, aerospace/defense, multi
 - **Competition** — _unknown - research needed_. Likely incumbent SIEM/EDR + "do nothing" per [[../50_Intel/playbook/closed-lost-patterns]].
 
 ## Threads
-Single-threaded. Target 2-3 per multi-thread rule.
-- _TBD primary contact who signed MNDA_ — pull from HubSpot associations
-- MHI-US CISO / VP Security — _unknown, research needed_
-- CIO / CFO at MHI-US sub — _unknown, research needed_
+Single-threaded today. Target 2-3 per multi-thread rule.
+- **Rank 1 (confirmed, active):** Lucas Parker — Head of Security, Mitsubishi Heavy Industries America. Email: lucas.parker@mhia.com. cc'd Brad + Sivan on follow-ups. He sent the MNDA 2026-04-14, bumped Miles for review 2026-04-20. ⚠️ Waiting on Miles.
+- MHI-US CIO — unknown, research needed
+- MHI-US CFO at sub entity — unknown, research needed
 
 ## Deal
 - Amount: $75,000
@@ -51,15 +52,19 @@ Single-threaded. Target 2-3 per multi-thread rule.
 
 ## Timeline
 - 2025-04-01: Eisaku Ito becomes new CEO of Mitsubishi Heavy Industries
-- 2026-04-20: Sivan's signed MNDA forwarded (first send was missed by the prospect)
-- 2026-04-21: stub created from HubSpot backfill
-- 2026-04-22: vault densification; no HubSpot access this session to pull the MNDA counterparty name
+- 2026-04-09: Miles sent initial follow-up + next-steps email to Lucas Parker (lucas.parker@mhia.com), cc'd Brad + Sivan. Proposed 3 slots for technical deep-dive with Sivan + Vadim (Wed 4/22 10am ET, Thu 4/23 11:30am ET, Mon 4/28 TBD).
+- 2026-04-14: Miles bumped Lucas. Lucas replied same day: "Attached is our MNDA. I'll get back to you on next steps after this is ironed out." **Lucas sent HIS MNDA. Ball in Miles's court to review.**
+- 2026-04-20: Miles bumped casually ("sunburnt in FL, hope you had a great weekend"). Lucas replied 23 min later: **"Have you reviewed the Mutual NDA from the prior email?"** Clear signal — Lucas is waiting on Miles.
+- 2026-04-20: Miles forwarded Sivan's MNDA back to Lucas (referenced in prior account notes, not seen in this thread pull).
+- 2026-04-22 (today): NDA review STILL not acknowledged back to Lucas. This is the active blocker. Primary contact: Lucas Parker, Head of Security, Mitsubishi Heavy Industries America.
+- 2026-04-22: vault densification; HubSpot deal ID still unknown this session.
 
 ## Next
-- [ ] Pull HubSpot: deal ID, owner, dealstage, associated contacts (the MNDA signer), last activity
-- [ ] ZoomInfo enrich MHI-US CISO / CIO / security leaders
-- [ ] Re-engage the primary contact after MNDA forward — 5 day waiting period, then pattern-break per [[../50_Intel/playbook/closed-lost-patterns]]
-- [ ] Multi-thread to at least one additional contact within 30 days of first meeting
+- [ ] **BLOCKER — Miles to review Lucas's MNDA** (sent 2026-04-14, Lucas bumped 2026-04-20). Either (a) redline and send back, (b) have Onyxia legal review, or (c) confirm which MNDA (Lucas's or Sivan's) is the one moving forward. Action needed within 24-48h to avoid thread going cold.
+- [ ] Reply to Lucas acknowledging NDA receipt + ETA on review even if full review is not done today.
+- [ ] Pull HubSpot: deal ID, owner, dealstage, associated contacts, last activity (requires a Mitsubishi Heavy deal search).
+- [ ] ZoomInfo enrich MHI-US CIO / CFO / security leaders for multi-thread.
+- [ ] Multi-thread to at least one additional contact within 30 days of first meeting.
 
 ## Intel
 Japan HQ (Tokyo). US sub: Mitsubishi Heavy Industries America. New CEO Eisaku Ito since 2025-04-01 (30-year MHI veteran). Business units: aerospace + defense + power systems + commercial aviation + compressor systems. CMMC-relevant defense work. Global employee count well above 10K.
