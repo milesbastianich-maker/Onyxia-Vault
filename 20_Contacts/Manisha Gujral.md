@@ -25,8 +25,18 @@ Security program management at scale. GE Vernova is 75K people across energy/gri
 ## History
 
 - 2026-04-15: Miles sent "are you still available?" ping for the intro call. She cancelled due to kid's doctor appointment. Rescheduled to 2026-04-22 at the same time.
-- 2026-04-22: intro call — [[2026-04-22-ge-vernova-prep]]
+- 2026-04-22: intro call — [[../30_Meetings/2026-04-22-ge-vernova-prep]] → [[../30_Meetings/2026-04-22-ge-vernova-debrief]]. 25 min. Acceptable classification. Confirmed identity-lead role.
+
+## Confirmed post-call (2026-04-22)
+
+- **Title: Director, Cybersecurity.** Her team leads SSO, MFA, PKI space at GE Vernova — owns services, not just oversight.
+- **Stack:** Ping Identity is their IAM.
+- **Reporting:** in-house built dashboards rolled up weekly to CIOs/CISOs.
+- **Priority:** Phase 1 = stabilize post-split environment. Phase 2 = reporting consolidation.
+- **AI interest:** referenced Anthropic unauthorized-access news in opening — she's tracking AI-security landscape.
 
 ## Notes
 
-Warm. Apologized for the cancellation and rescheduled herself. Responsive. Email is manisha.gujral@gevernova.com (calendar from that address). ZoomInfo primary email shows manisha.gujral@ge.com (old domain). Use gevernova.com.
+Warm. Apologized for the cancellation and rescheduled herself. Responsive. Email is manisha.gujral@gevernova.com. ZoomInfo primary email shows manisha.gujral@ge.com (old domain). Use gevernova.com.
+
+**Champion strength: 2/5.** Engaged but gatekeeper. Did not introduce a peer or commit to a second meeting. Nurture-mode, not push-mode.
