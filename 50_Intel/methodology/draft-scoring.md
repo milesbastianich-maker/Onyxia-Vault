@@ -12,6 +12,13 @@ Every cold-outbound draft routed through `onyxia-drafter` is scored 1-5 against 
 
 Goal: catch AI-ism patterns before they ship. Shipped-but-flagged drafts get post-hoc scoring so we learn what the prospect reply rate correlates with.
 
+## Zero-tolerance checks (applied BEFORE scoring — any hit = auto-reject)
+
+- **No HTML comments in body.** `<!-- ... -->` tags must NEVER appear in the Gmail draft body. They show up in plain-text view, forwards, "show original," and recipient inboxes. Tracked in metadata / touch-tracker rows ONLY. Added 2026-04-22 after Jan Mast / AeroVironment draft shipped with `<!-- Personalization source: ... -->` visible in Miles's drafts folder.
+- **No Register-B mail-merge phrases** (see `forbidden-words.md`).
+- **No em dashes in agent-written prose.** Miles's own prose may use them; agent drafts must not.
+- **No exclusion-list hits** (see `reference_onyxia_exclusions.md`).
+
 ## The 8 criteria
 
 Each scored 0-1 (fail/pass). Sum → 1-5 band.

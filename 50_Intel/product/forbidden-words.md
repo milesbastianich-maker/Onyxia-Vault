@@ -11,6 +11,10 @@ tags: [intel, product]
 
 Words and phrases Miles never writes in outbound to security buyers. Auto-reject any draft that contains them. Compiled from the closed vocabulary in `00_Index/CLAUDE.md`, the `feedback_email_engine.md` memory, and contemporary CISO tell-tale lists.
 
+## Zero-tolerance: HTML comments in body
+
+`<!-- ... -->` tags MUST NEVER appear in a Gmail draft body. They show in plain-text view, forwards, and the drafts folder. Source-citation goes in the touch-tracker row metadata only. Banned 2026-04-22 after an AeroVironment/Jan Mast draft shipped with a visible `<!-- Personalization source: ... -->` comment.
+
 ## Note on em dashes
 
 Em dashes are banned in AGENT-written drafts (they are a tell). Miles's own prose uses em dashes naturally. When editing Miles's copy, preserve his em dashes. When writing as the drafter sub-agent, do not introduce them.
