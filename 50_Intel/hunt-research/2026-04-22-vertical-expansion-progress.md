@@ -67,3 +67,24 @@ Final ranking:
 **Verdict:** Run SaaS + Defense in parallel as primary expansion plays. Starboard is already warm in Retail. Real estate needs Sivan. Higher Ed and Legal are bench.
 Next: Phase 7 — Slack post + walkthrough.
 
+### Phase 7 — Slack post — STAGED (requires claude.ai session for MCP OAuth)
+Slack MCP OAuth not available in CLI context. Message staged below — paste into #miles-ai-ops from claude.ai or copy manually.
+
+```
+**Vertical expansion — Phases 3-6 complete** ✅
+
+Priority ranking:
+1. SaaS/Technology (9/10) — 1,267 HubSpot companies, 3 wins, Miles's territory
+2. Defense/Aerospace (8/10) — CMMC Nov 10 hard deadline, 6.5 months, ~1% ready
+3. Retail/Hospitality (7/10) — PCI fines accumulating now, Starboard live ($150K)
+4. Real Estate (6/10) — SEC cyber rule, 2 wins, Sivan-intro dependent
+5. Higher Education (5/10) — GLBA + NIST 800-171 Rev 3, long arc, 0 wins
+6. Legal Services (3/10) — deprioritized, 577-day cycle
+
+Biggest finding: CMMC Nov 10 is the hardest urgency hook in the vault — stronger than HIPAA NPRM. Cold outreach viable because the deadline sells itself.
+
+Immediate plays: SaaS (filter 1,267 → 20-account list) + Defense (83 HubSpot → CMMC cold sequence) + close Starboard + Sivan intro for CRE.
+
+9 files committed @ 2fc4702
+```
+
