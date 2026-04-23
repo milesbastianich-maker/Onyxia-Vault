@@ -52,6 +52,7 @@ Target 2-3 per [[../50_Intel/playbook/closed-won-patterns]] multi-thread rule.
 ## Timeline
 - 2026-04-21: stub created from HubSpot backfill
 - 2026-04-22: vault densification; Jim Nagata identified as incoming CISO per National CIO Review 2026 report; HubSpot access needed to pull actual deal record
+- 2026-04-23: signal scan confirmed Nagata. Champion slot verified in daily scan. Hire recency unconfirmed — verify before outreach prioritization.
 
 ## Next
 - [ ] Pull HubSpot deal record: ID, owner, dealstage, contacts, last activity
