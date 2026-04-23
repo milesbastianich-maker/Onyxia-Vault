@@ -12,15 +12,15 @@ Week: 2026-W17 (Apr 20 - Apr 26)
 _(Mitsubishi Heavy: MNDA forwarded Apr 20, waiting their response. No new movement today. Watch list.)_
 
 ## Top 3 new conversations to open
-1. **Jessica Kruse** (OCC) — new MD GRC, SEC clearing cyber obligations. Draft ready. 1 day overdue.
-2. **Leilani Farol** (First Horizon Bank) — sent Apr 22. Waiting reply.
-3. **Hunter Jackson** (Metalex) — new CISO, CMMC lift, phone available. Voicemail this week.
+1. **Mike Madero** (Rocket) — VP InfoSec. Apr 24 2pm EDT call confirmed, Sivan on. No vault file or HubSpot deal yet. Prep before the call.
+2. **Jessica Kruse** (OCC) — new MD GRC, SEC clearing cyber obligations. Draft ready. 3 days overdue.
+3. **Leilani Farol** (First Horizon Bank) — sent Apr 22. Waiting reply.
 
 ## One play to run this week
 Sivan peer-intro. Highest conversion lever right now. Sivan was on GE Vernova + Encora calls today.
 
 ## Upcoming
-- **Thu Apr 23:** Encora debrief (today's 3pm call — not yet filed). OCC send. People Inc call.
+- **Fri Apr 24:** Rocket — vault file + HubSpot deal + prep before 2pm EDT call (Mike Madero, Sivan on). Encora debrief + HubSpot deal creation (May 1 = 8 days). OCC send (3 days overdue). People Inc call (5 days slipping).
 - **Mon Apr 27:** IVISA 2pm CT (Susan booked — need discovery angle that avoids early demo ask).
 - Mid-week: voicemail Hunter at Metalex.
 - Fri 4pm: weekly review → `60_Lessons/2026-W17-review.md`.
