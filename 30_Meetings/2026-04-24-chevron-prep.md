@@ -16,6 +16,9 @@ tags: [meeting]
 
 # Chevron — intro prep — 2026-04-24
 
+## 2026-04-24 intel update
+Jon Raper confirmed as CISO at Chevron (HubSpot ID 179973449985, jon.raper@chevron.com). Calendar invite via personal address (jonmraper@outlook.com) shows status: DECLINED. Meeting is still on Miles's calendar. Verify whether Jon is joining or this needs a same-day reschedule. Chevron had a refinery fire (April 20) and oil leak (April 22) at its Pasadena, TX facility — operational incidents, no cyber news. OT/ICS environment under heightened scrutiny right now. New vault files created: [[../20_Contacts/Jon-Raper]], Chevron account not yet in vault.
+
 ## Meeting context
 Third scheduled attempt. Jon rescheduled on 2026-04-06 and again 2026-04-17 ("declined"). Miles's last reply cooled it ("if you have a time in mind, I'll wait for your call"). This 10:30 ET Fri slot may or may not hold. Confirm within 24h.
 
