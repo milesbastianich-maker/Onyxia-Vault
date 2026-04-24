@@ -5,11 +5,12 @@ Hand-maintained focus file. Claude reads this first every session.
 Week: 2026-W17 (Apr 20 - Apr 26)
 
 ## Top 3 to push
-1. **Medusind** — Jigar Shah, CISO. $75K. GC thread open: Megan Marshall sent Apr 22. Next: Bala Iyer or John DeJager (CIOs) thread + Jigar follow-up.
-2. **People Inc** — $150K. Biggest in pipeline. MEDDPICC blank, Jul 31 close. Book a call this week. Three days slipping.
-3. **Encora** — Clifford Vazquez, CISO. Intro call Apr 22. Coforge acquisition closing this month = potential buying event. Scoping follow-up within 14 days.
+1. **People Inc** — $150K. MEDDPICC blank, Jul 31 close. Six days without a call booked. This week is not optional.
+2. **Rocket Companies** — Discovery call done Apr 24 (Mike Madero, Sivan on). Debrief, HubSpot deal creation, and Chris Burrows (CISO) thread are next moves.
+3. **Medusind** — Jigar Shah, CISO. $75K. GC thread open with Megan Marshall (Apr 22). Thread Bala Iyer or John DeJager (CIOs) — single-contact risk.
 
-_(Mitsubishi Heavy: MNDA forwarded Apr 20, waiting their response. No new movement today. Watch list.)_
+_(Encora: Miles sent Clifford Vazquez a reply Apr 24. Awaiting his response. No HubSpot deal yet — create when he replies.)_
+_(Mitsubishi Heavy: MNDA forwarded Apr 20, waiting their response. Watch list.)_
 
 ## Top 3 new conversations to open
 1. **Mike Madero** (Rocket) — VP InfoSec. Apr 24 2pm EDT call confirmed, Sivan on. No vault file or HubSpot deal yet. Prep before the call.
