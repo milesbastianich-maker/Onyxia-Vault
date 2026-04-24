@@ -41,7 +41,8 @@ Prior Solomon Rozental outreach referenced a "from Starboard" template he modifi
 - **Competition** — _unknown - research needed_. Likely "do nothing" + brand-mandated tools.
 
 ## Threads
-_No contacts on file. Pull from HubSpot._
+- Curt Warren — Cyber Security & Privacy — `Curt.Warren@starboardcruise.com` — DEPARTED as of Apr 24 2026
+- Robert Gunderson — VP, Information Technology — `Robert.Gunderson@starboardcruise.com` — new primary contact per Curt's auto-reply
 
 ## Deal
 - Amount: $50,000
@@ -52,6 +53,7 @@ _No contacts on file. Pull from HubSpot._
 ## Timeline
 - 2026-04-21: stub created from HubSpot backfill
 - 2026-04-22: vault densification. Confirmed as multi-concept franchise operator (~98 Wendy's + 6 other brands + ~180 total stores). ~114 corporate employees. HubSpot access needed to pull contacts
+- 2026-04-24: Curt Warren auto-reply — departed. Robert Gunderson (VP IT) is new contact. Domain on file (starboardgroup.com) does not match actual domain (starboardcruise.com). Possible profile mismatch: Starboard Cruise Services is a separate entity from the QSR franchisee. Miles to confirm which entity before next outreach. Draft to Gunderson posted to Gmail for approval.
 
 ## Next
 - [ ] Pull HubSpot: deal ID, owner, dealstage, contacts, last activity
