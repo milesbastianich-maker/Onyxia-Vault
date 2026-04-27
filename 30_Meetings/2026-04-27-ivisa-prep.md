@@ -6,49 +6,77 @@ start_time: "15:00 ET"
 duration_min: 30
 company: iVisa
 hubspot_company_id: 53259463064
-hubspot_owner: unowned
-attendees_external: ["Susan Lloyd (susan.lloyd@ivisa.com)"]
-attendees_internal: ["Miles Bastianich (organizer)", "Sivan Tehila", "Brad Baldelli"]
+hubspot_deal_id: none
+deal_stage: no deal yet
+attendees_external:
+  - Susan Lloyd — Director, Information Governance & Security (susan.lloyd@ivisa.com)
+attendees_internal:
+  - Miles Bastianich (organizer)
+  - Sivan Tehila (CEO)
+  - Brad Baldelli (invited, needs action)
 meeting_type: intro
 tags: [meeting]
 ---
 
-# iVisa — intro prep — 2026-04-27
+# PREP — iVisa — 3:00 PM ET — Intro / Discovery
 
-## Meeting context
-First meeting. HubSpot company record created 2026-03-25 (fresh), no owner, no deal. Miles created the meeting 2026-04-20 with Sivan on the invite — the peer-intro lever is already in play for a cold intro. That is the right move if Susan is senior.
+## Attendees
 
-iVisa is a travel-visa SaaS company. Regulated data (passports, government IDs, PII). Likely a [[../50_Intel/verticals/financial-services|fins]]-adjacent privacy-regulated vertical, or treat as its own sub-vertical.
+- **Susan Lloyd**, Director, Information Governance & Security, iVisa. Consulting background: KPMG Cyber Strategy & Governance, Deloitte, Accenture. Knows GRC frameworks cold. Warm but cost-guarded.
+- **Sivan Tehila**, Onyxia CEO and former CISO. Peer-intro lever already in play.
+- **Miles Bastianich**, AE.
 
-## Account state
-HubSpot: company exists, no deal, no activity logged. Vault silent. No MEDDPICC yet. Goal of this meeting is to open it.
+## Deal state
 
-## Attendee — Susan Lloyd
-Title unknown. Email domain confirms company. Enrich via ZoomInfo before the call (not done in this session).
+No deal in HubSpot. No prior formal engagement. Company record exists (ID 53259463064), unowned. This call opens the opportunity.
 
-## Proposed agenda
-- 3 min: why Sivan is here (CEO, former CISO; calibration call, not a pitch).
-- 10 min: Susan's world — security program maturity, what keeps her up.
-- 10 min: Onyxia's [[../50_Intel/product/positioning|positioning]] — the board-reporting + real-time risk picture angle.
-- 5 min: next step.
+**iVisa snapshot:** Private, founded 2012, Newark DE. 128 employees. ~$7.7M revenue. Travel-visa SaaS (online visa processing, passport PII, government IDs). No outside funding. B2B + B2C.
 
-## Questions to close MEDDPICC gaps
-- Susan's scope and title?
-- Who owns security posture at iVisa? CISO in seat?
-- Any recent incidents, audits, or regulatory pressure?
-- What tooling do they run today?
-- Budget cycle?
+## MEDDPICC status
 
-## Likely objections
-- "We're too small / early" → probe employee count, fundraising stage; Onyxia has [[../50_Intel/playbook/closed-won-patterns|mid-market wins]] as low as $10K (Silverstein).
-- "We already have X" → [[../50_Intel/methodology/objections|#7]], pivot to layer not replace.
+| Slot | Status |
+|---|---|
+| Metrics | BLANK |
+| Economic Buyer | BLANK — Susan is Director level; unclear if she controls budget |
+| Decision Criteria | BLANK |
+| Decision Process | BLANK |
+| Paper Process | N/A yet |
+| Identify Pain | PARTIAL — heavy PII burden, EES compliance spike, small team |
+| Champion | WEAK — meeting booked, but "if absolutely needed" signal |
+| Competition | BLANK |
 
-## CTA ladder choice
-Per [[../40_Plays/cta-ladder|cta-ladder]]: **specific** tier — ask for a 30-min follow-up with whoever owns security at iVisa if Susan is not the buyer.
+Gaps to fill this call: Metrics, Economic Buyer, Champion strength, Identify Pain.
+
+## Last touch
+
+April 20, 2026. Miles sent "Monty Python & Onyxia" follow-up after meeting Susan in person ~April 14-17. Susan replied: "Right now our tooling is 'if absolutely needed' before purchasing but always happy to take a look." She agreed to 2pm CT (=3pm ET) April 27 with Sivan.
+
+## Recent news
+
+EU Entry/Exit System launched April 10, 2026 with biometric glitches at UK-France border. iVisa covers EES guidance for customers — their compliance and data-handling posture just came under more scrutiny from enterprise travel clients. Also: iVisa published solo-traveler visa rejection research April 9 (PR play, shows they do data analysis).
+
+## Goal for this call
+
+Get Susan to name her #1 pain around security reporting or program visibility. Confirm who has budget authority. Do not pitch the product.
+
+## 3 questions to ask
+
+- "With EES going live April 10, are you seeing more scrutiny from enterprise clients or your own leadership around how you handle biometric and passport data?"
+- "What does security program reporting look like for you today — board or executive level — and how long does it take to pull together?"
+- "What would need to be true for a tool like Onyxia to move from 'nice to have' to something you'd actually prioritize in this budget cycle?"
+
+## Risk / objection to prepare for
+
+She already pre-objected on cost ("if absolutely needed"). At $7.7M revenue she may not have discretionary budget. If she signals budget, probe: is this a team-level decision or does leadership (CEO/COO) own it? Don't close — close for a scoping session with whoever owns budget.
+
+## Sivan angle
+
+Sivan is a former CISO. Susan came up through GRC consulting. Let Sivan open with: "I built Onyxia because I had this problem." That lands better than any AE pitch. Miles's job is to steer toward specific pain and capture MEDDPICC.
 
 ## Wikilinks
-- [[../50_Intel/personas/ciso]]
-- [[../50_Intel/personas/general-counsel]] (visa data has GC touch)
-- [[../50_Intel/triggers/sec-cyber-rule]]
+
+- [[../10_Accounts/iVisa]]
+- [[../20_Contacts/Susan-Lloyd]]
+- [[../50_Intel/product/positioning]]
 - [[../40_Plays/sivan-peer-intro]]
-- [[../50_Intel/product/quotes]]
+- [[../50_Intel/playbook/closed-won-patterns]]
