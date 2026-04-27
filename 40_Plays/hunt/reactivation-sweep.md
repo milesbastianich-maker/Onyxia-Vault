@@ -105,4 +105,5 @@ Every draft this play creates must append a row to [[../../50_Intel/methodology/
 
 | date | bucket 1 | bucket 2 | bucket 3 | bucket 4 | drafts staged | replies | meetings |
 |---|---|---|---|---|---|---|---|
+| 2026-04-27 | 68 | 28 | 3 | 0 | 3 | — | — |
 
