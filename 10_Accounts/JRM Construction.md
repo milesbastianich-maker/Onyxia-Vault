@@ -9,9 +9,9 @@ arr_target: 75000
 stage: poc
 status: active
 created: 2026-04-21
-last_touch: 
-next_action: pull HubSpot champion + identify security leader
-next_action_date: 2026-04-24
+last_touch: 2026-04-28
+next_action: identify Justin Hershkowitz title + role in deal. Research Manager of Information Security name.
+next_action_date: 2026-04-29
 metrics: 
 economic_buyer: _unknown - research needed_
 champion: _unknown - research needed_
@@ -40,7 +40,7 @@ Off-vertical. Construction is not in [[../50_Intel/icp]] Tier 1 (healthcare / fi
 ## Threads
 - Manager of Information Security — primary champion candidate — _name unknown, pull from HubSpot/LinkedIn_
 - Celia Seigerman-Levit — Director of Risk Management — coach candidate (operates on compliance surface)
-- Justin Hershkowitz — LinkedIn-listed JRM exec — _role + relevance unknown_
+- Justin Hershkowitz — jhershkowitz@jrmcm.com — LinkedIn-listed JRM exec — role unknown. Accepted NYC cyber dinner invite 2026-04-28. First confirmed engagement on deal.
 
 ## Deal
 - Amount: $75,000
@@ -51,6 +51,7 @@ Off-vertical. Construction is not in [[../50_Intel/icp]] Tier 1 (healthcare / fi
 ## Timeline
 - 2026-04-21: stub created from HubSpot backfill
 - 2026-04-22: vault densification. Confirmed JRM is actively building InfoSec program per public job postings. No HubSpot access this session
+- 2026-04-28: Justin Hershkowitz (jhershkowitz@jrmcm.com) accepted NYC cyber dinner May 19. First confirmed named contact. HubSpot deal ID confirmed: 54315081508 (POC/Partnership stage, $75K). Next: identify his title via LinkedIn/ZoomInfo and qualify his role in the deal.
 
 ## Next
 - [ ] Pull HubSpot: deal ID, owner, dealstage, contacts, last activity
