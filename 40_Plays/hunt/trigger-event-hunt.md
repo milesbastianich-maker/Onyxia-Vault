@@ -14,6 +14,8 @@ Fresh triggers beat cold lists 10x. This is the highest-conversion hunt lane.
 ## When to run
 Every weekday at 06:45 ET, ahead of the 07:00 morning brief. Feeds the brief.
 
+**Parallel lane:** Swan AI autopilot runs at 07:00 ET covering job-posting signals (GRC hiring, new security leader detections). Deduplication happens at HubSpot. See [[../../50_Intel/specs/swan-autopilot-setup]] for Swan's trigger set and territory rules.
+
 ## Sources
 1. **ZoomInfo Scoops** — `search_scoops` filtered to Tier 1 ICP verticals, last 72 hours
 2. **Web News** — targeted searches on healthcare breach, banking cyber incident, CMMC award, new CISO, 8-K cyber disclosure
