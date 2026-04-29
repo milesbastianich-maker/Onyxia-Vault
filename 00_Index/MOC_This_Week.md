@@ -2,29 +2,31 @@
 
 Hand-maintained focus file. Claude reads this first every session.
 
-Week: 2026-W17 (Apr 20 - Apr 26)
+Week: 2026-W18 (Apr 27 - May 3)
 
 ## Top 3 to push
-1. **People Inc** — $150K. MEDDPICC blank, Jul 31 close. Six days without a call booked. This week is not optional.
-2. **Rocket Companies** — Discovery call done Apr 24 (Mike Madero, Sivan on). Debrief, HubSpot deal creation, and Chris Burrows (CISO) thread are next moves.
-3. **Medusind** — Jigar Shah, CISO. $75K. GC thread open with Megan Marshall (Apr 22). Thread Bala Iyer or John DeJager (CIOs) — single-contact risk.
+1. **People Inc** — $150K. MEDDPICC blank, Jul 31 close. Still 1 anonymous contact in HubSpot. ZoomInfo enrich CIO/CISO is the first move. Single-contact death pattern.
+2. **Rocket Companies** — Discovery call was Apr 24. No HubSpot deal created, no debrief, no Chris Burrows thread. Six days post-call. This is the edge.
+3. **Starboard Group** — $50K, POC, May 31 close. "Rob Intro" call Apr 30 at 11:30 AM ET. 44 days since last note. Prep before the call, qualify Rob's authority.
 
-_(Encora: Miles sent Clifford Vazquez a reply Apr 24. Awaiting his response. No HubSpot deal yet — create when he replies.)_
-_(Mitsubishi Heavy: MNDA forwarded Apr 20, waiting their response. Watch list.)_
+_(Medusind: Jigar Shah thread live. Bala Iyer / John DeJager multi-thread not started — still a priority but pushed to #4 by Starboard's live meeting.)_
+_(Mitsubishi Heavy: MNDA forwarded Apr 20, nine days no response. Follow up or flag as stalled.)_
+_(JRM: Justin Hershkowitz confirmed Manager of InfoSec. Asked about VARs Apr 29 — soft buying signal. Miles to respond manually.)_
 
 ## Top 3 new conversations to open
-1. **Mike Madero** (Rocket) — VP InfoSec. Apr 24 2pm EDT call confirmed, Sivan on. No vault file or HubSpot deal yet. Prep before the call.
-2. **Jessica Kruse** (OCC) — new MD GRC, SEC clearing cyber obligations. Draft ready. 3 days overdue.
-3. **Leilani Farol** (First Horizon Bank) — sent Apr 22. Waiting reply.
+1. **Jessica Kruse** (OCC) — MD GRC, SEC clearing cyber obligations. Draft has been ready. Overdue.
+2. **Leilani Farol** (First Horizon Bank) — sent Apr 22. Waiting reply.
+3. **CyberDiligent (Russell Okoth)** — 2x CISO, IANS Faculty, met Apr 29. Potential finserv referral channel. Follow-up email to establish partner motion.
 
 ## One play to run this week
-Sivan peer-intro. Highest conversion lever right now. Sivan was on GE Vernova + Encora calls today.
+Sivan peer-intro. Russell Okoth (CyberDiligent) is a candidate to co-host or refer into finserv accounts.
 
 ## Upcoming
-- **Fri Apr 24:** Rocket — vault file + HubSpot deal + prep before 2pm EDT call (Mike Madero, Sivan on). Encora debrief + HubSpot deal creation (May 1 = 8 days). OCC send (3 days overdue). People Inc call (5 days slipping).
-- **Mon Apr 27:** IVISA 2pm CT (Susan booked — need discovery angle that avoids early demo ask).
-- Mid-week: voicemail Hunter at Metalex.
-- Fri 4pm: weekly review → `60_Lessons/2026-W17-review.md`.
+- **Apr 30:** Akuvo POC placeholder (11 AM ET). Starboard "Rob Intro" (11:30 AM ET). Spire Orthopedic (2:30 PM ET).
+- **May 13:** Onyxia & Meyer (Hold).
+- **May 19:** NYC Cyber Leadership Dinner. 5 RSVPs in today (Stanley Garcia, Rich Warner, Ashraf Gad, Eric Karpman, Diana).
+- **May 21:** Onyxia @ Yankee Stadium.
+- Fri 4pm: weekly review → `60_Lessons/2026-W18-review.md`.
 
 ## Deals requiring attention in next 7 days
 ```dataview
