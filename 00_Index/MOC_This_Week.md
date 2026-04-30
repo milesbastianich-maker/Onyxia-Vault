@@ -5,9 +5,9 @@ Hand-maintained focus file. Claude reads this first every session.
 Week: 2026-W18 (Apr 27 - May 3)
 
 ## Top 3 to push
-1. **People Inc** — $150K. MEDDPICC blank, Jul 31 close. Still 1 anonymous contact in HubSpot. ZoomInfo enrich CIO/CISO is the first move. Single-contact death pattern.
-2. **Rocket Companies** — Discovery call was Apr 24. No HubSpot deal created, no debrief, no Chris Burrows thread. Six days post-call. This is the edge.
-3. **Starboard Group** — $50K, POC, May 31 close. "Rob Intro" call Apr 30 at 11:30 AM ET. 44 days since last note. Prep before the call, qualify Rob's authority.
+1. **People Inc** — $150K. MEDDPICC blank, Jul 31 close. ZoomInfo enrich CIO/CISO not done yet (slipped Apr 30). Single-contact death pattern. Does not slip May 1.
+2. **Starboard Group** — $50K, POC, May 31 close. Rob Intro held Apr 30. No debrief filed. Jose Betancourt is the second thread to add. 31 days to close, MEDDPICC still blank. Debrief is first task May 1.
+3. **Rocket Companies** — Discovery call Apr 24. No HubSpot deal, no debrief, no Chris Burrows thread. 6 days post-call. This is the edge.
 
 _(Medusind: Jigar Shah thread live. Bala Iyer / John DeJager multi-thread not started — still a priority but pushed to #4 by Starboard's live meeting.)_
 _(Mitsubishi Heavy: MNDA forwarded Apr 20, nine days no response. Follow up or flag as stalled.)_
