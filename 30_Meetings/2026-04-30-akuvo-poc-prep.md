@@ -3,17 +3,52 @@ type: meeting
 subtype: prep
 date: 2026-04-30
 start_time: "11:00 ET"
-duration_min: 45
+duration_min: 30
 company: "[[../10_Accounts/AKUVO]]"
-hubspot_owner: check
-attendees_external: ["Dan McNamara (dmcnamara@akuvo.com)"]
+hubspot_deal_id: 56545071624
+hubspot_owner: milesb (86806986)
+attendees_external: ["Dan McNamara (dmcnamara@akuvo.com, title unconfirmed)"]
 attendees_internal: ["Miles Bastianich (organizer)", "Sivan Tehila", "Brad Baldelli"]
 meeting_type: poc
-status: placeholder
+status: confirmed
 tags: [meeting]
 ---
 
-# AKUVO — POC placeholder prep — 2026-04-30
+# AKUVO — POC prep — 2026-04-30
+
+## Brief
+
+PREP — AKUVO — 11:00 ET — POC
+
+**Attendees:** Dan McNamara (title unconfirmed, dmcnamara@akuvo.com) | Sivan Tehila, Brad Baldelli on Onyxia side
+
+**Deal:** $50K | Stage: POC/Partnership | Created 2026-02-18 (71 days) | Close target 2026-07-31 | 1 contact — single-threaded risk
+
+**MEDDPICC status:**
+- Metrics: BLANK
+- Economic Buyer: BLANK — likely CEO Jay Mossman or CFO at Series A scale
+- Decision criteria: BLANK
+- Decision process: BLANK
+- Paper process: BLANK
+- Identified pain: Hypothesis only — new CRDO (William Coffey) inherited security mandate with no predecessor; must defend program to bank/CU customers
+- Champion: WEAK — William Coffey (CRDO) is the right target but NOT on today's call; Dan McNamara's authority unclear
+- Competition: BLANK — likely "do nothing" + vCISO at this size
+
+**Last touch:** 2026-04-20 — Miles sent "POC on the 30th, quick prep" to Dan. No reply on file. HubSpot last modified 2026-04-20.
+
+**Recent news:**
+- Vista Equity (existing AKUVO investor + prior Onyxia customer at $37.5K) made a strategic investment in AKUVO for agentic AI expansion (late 2025). Warm-intro angle via investor network — confirm with Sivan.
+- TransUnion partnership announced Feb 2026: scoring data into AKUVO platform.
+- Two new AI features launched Feb 2026: Collector Assistant + Virtual Collector. AKUVO is actively investing in AI and data-partner posture — makes vendor-risk defensibility more acute.
+
+**Goal for this call:** Confirm POC scope + success metric. Clarify Dan's role vs. William Coffey. Leave with a named next step and a date.
+
+**3 questions to ask:**
+- Where does William Coffey fit in this evaluation — is he on the decision side, or are you running the POC independently?
+- What does a successful POC output look like for AKUVO — a board-ready report, an answer to a bank diligence questionnaire, something else?
+- If the POC lands well, who signs off and what's the timeline from there?
+
+**Risk:** Meeting title includes "(Placeholder)" — confirm this is a live working session, not a standing hold. Dan may be an operator, not a decision maker. William Coffey (the named champion-candidate) is absent from this call. Single-threaded deal at 71 days with no MEDDPICC filled is the classic non-responsive loss pattern.
 
 ## Meeting context
 Meeting title: "Onyxia & Akuvo POC (Placeholder)". Status "Placeholder" in the title is important — this may be a standing hold, not a confirmed working session. Confirm 48h before.
