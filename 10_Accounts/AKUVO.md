@@ -9,9 +9,9 @@ arr_target: 50000
 stage: poc
 status: active
 created: 2026-04-21
-last_touch: 
-next_action: confirm champion identity + multi-thread target
-next_action_date: 2026-04-24
+last_touch: 2026-04-30
+next_action: prep May 21 POC scoping call. multi-thread to Coffey before it.
+next_action_date: 2026-05-15
 metrics: 
 economic_buyer: _unknown - research needed_
 champion: _unknown - research needed_
@@ -49,6 +49,7 @@ Single-thread risk per [[../50_Intel/playbook/closed-lost-patterns]]. Target 2-3
 ## Timeline
 - 2026-04-21: stub created from HubSpot backfill
 - 2026-04-22: vault densification + web enrichment; no HubSpot access this session to pull deal ID, owner, or contacts
+- 2026-04-30: Dan McNamara (SVP Info Security & Compliance) emailed before the 11am POC scoping meeting asking to "refresh my memory on what we're looking to achieve." Miles clarified the agenda. Dan punted to late May/early June — "other priorities." New call booked May 21, 11am ET. Sivan accepted. Risk: "refresh my memory" opener signals this is low on Dan's priority stack. No champion confirmation yet. Stage held at POC.
 
 ## Next
 - [ ] Pull HubSpot record: deal ID, owner, dealstage (apply translation), associated contacts, last activity
