@@ -16,7 +16,7 @@ _(Mitsubishi Heavy: MNDA sent Apr 20, 11+ days dark. Send a follow-up or flag as
 ## Top 3 new conversations to open
 1. **Rocket Companies** — Create HubSpot deal. File Apr 24 debrief. Draft Chris Burrows (CISO). May 7 earnings is the timing hook. 7 days post-call and counting.
 2. **JRM / Justin Hershkowitz** — Respond to "do you have any VARs in mind?" (Apr 29). Miles reads manually. Buying signal. Do not route to a partner.
-3. **Elevate Textiles / Rick Scot** — Send scoping call request. Deal is created; book the next meeting before the Execweb intro window closes.
+3. **Elevate Textiles / Rick Scot** — Discovery meeting held May 1. Deal created ($50K, Sep 30 close). Debrief to file Monday. Send scoping call request before the Execweb intro window closes.
 
 ## One play to run this week
 [[40_Plays/sivan-peer-intro]] on Medusind second thread. Target: Bala Iyer (CIO) or John DeJager (VP Technology). The $5M settlement payout (Apr 10) is the trigger. Jigar Shah alone is fragile. This is the highest-ROI move in the pipeline right now.
