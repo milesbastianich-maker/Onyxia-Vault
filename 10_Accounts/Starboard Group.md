@@ -9,9 +9,9 @@ arr_target: 50000
 stage: poc
 status: active
 created: 2026-04-21
-last_touch: 
-next_action: pull HubSpot champion + validate size fit
-next_action_date: 2026-04-24
+last_touch: 2026-04-30
+next_action: file Apr 30 call debrief. confirm Jose Betancourt title. start multi-thread outreach to Betancourt.
+next_action_date: 2026-05-01
 metrics: 
 economic_buyer: _unknown - research needed_
 champion: _unknown - research needed_
@@ -43,6 +43,7 @@ Prior Solomon Rozental outreach referenced a "from Starboard" template he modifi
 ## Threads
 - Curt Warren — Cyber Security & Privacy — `Curt.Warren@starboardcruise.com` — DEPARTED as of Apr 24 2026
 - Robert Gunderson — VP, Information Technology — `Robert.Gunderson@starboardcruise.com` — new primary contact per Curt's auto-reply
+- Jose Betancourt — title unknown — `Jose.Betancourt@starboardcruise.com` — CC'd on Apr 24 acceptance email; accepted follow-up meeting Apr 30. Likely IT or Security. Confirm title before outreach.
 
 ## Deal
 - Amount: $50,000
@@ -54,6 +55,7 @@ Prior Solomon Rozental outreach referenced a "from Starboard" template he modifi
 - 2026-04-21: stub created from HubSpot backfill
 - 2026-04-22: vault densification. Confirmed as multi-concept franchise operator (~98 Wendy's + 6 other brands + ~180 total stores). ~114 corporate employees. HubSpot access needed to pull contacts
 - 2026-04-24: Curt Warren auto-reply — departed. Robert Gunderson (VP IT) is new contact. Domain on file (starboardgroup.com) does not match actual domain (starboardcruise.com). Possible profile mismatch: Starboard Cruise Services is a separate entity from the QSR franchisee. Miles to confirm which entity before next outreach. Draft to Gunderson posted to Gmail for approval.
+- 2026-04-30: Discovery/re-engage call held at 11:30 ET (Miles, Sivan, Brad). Jose Betancourt CC'd. Entity confirmed as Starboard Group using @starboardcruise.com domain. At 17:12 ET, both Robert Gunderson and Jose Betancourt accepted follow-up meeting invite "Starboard & Onyxia." Two threads confirmed. Debrief not yet filed — pending Miles input.
 
 ## Next
 - [ ] Pull HubSpot: deal ID, owner, dealstage, contacts, last activity
