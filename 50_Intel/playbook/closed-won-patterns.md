@@ -111,6 +111,22 @@ From `hs_analytics_source`:
 
 **Next enrichment pass:** pull engagements and notes for the top 10 wins. That's where the actual winning language lives.
 
+## Broker intro + Sivan peer story
+
+*Promoted from W18 meeting activity (2 occurrences: TMF deal created Apr 28, Elevate Textiles deal created May 1). Added 2026-05-01.*
+
+Broker-facilitated intros (Execweb, IANS, event-referral) are passive by default. The prospect said yes to 45 minutes — that does not mean they are shopping. The meeting goes polite-and-cold unless Sivan establishes peer credibility in the first 5-8 minutes.
+
+**The pattern (2 data points from W18):**
+- Armstrong/TMF (Apr 28): Justin Armstrong is a 25-year healthcare CISO turned vCISO. Sivan led with peer-CISO framing. TMF deal created same day.
+- Elevate Textiles (May 1): Rick Scot is CIO/CISO dual-hat at a $4B manufacturing company. Execweb-brokered. Sivan on the call. Deal created same day.
+
+**Rule:** Sivan must be on every broker-introduced first meeting. No exceptions. The peer story is the only thing that converts a passive "yes to 45 minutes" into a concrete next step. An AE-only broker intro will produce "send me more information."
+
+**What Sivan says:** "I built Onyxia because I had this problem." That sentence is not a pitch. It is a mirror. A CISO or CIO who has lived the same problem hears it and stops being polite. They start being curious.
+
+**Cap:** Sivan's time is finite. See [[../40_Plays/cta-ladder]] peer-call cap (2-3 new per week). Broker intros count against that cap.
+
 ## Cross-references
 - [[closed-lost-patterns]]
 - [[sivan-peer-intro]]

@@ -116,6 +116,31 @@ Budget losses: Montefiore, Main Line Health, CSC, Insulet, Lowenstein Sandler, F
 6. **Disqualify Israeli entities faster.** Sivan said so. Data backs it.
 7. **Economic Buyer must be named before proposal.** No proposal goes out with an empty EB slot.
 
+## The pre-ghost detection signal
+
+*Promoted from W18 meeting debriefs (2 occurrences: AKUVO, Starboard Group). Added 2026-05-01.*
+
+A contact who attends meetings when asked but never drives forward is not a champion. They will ghost within 2-4 weeks.
+
+**The tell:** They show up. They answer questions. They do not ask the next question. They do not forward the invite to a colleague. They do not name the next step before the call ends. They say "let's reconnect" instead of "can we do May 14?"
+
+**This week's data points:**
+- AKUVO (Dan McNamara): opened a scheduled POC call with "refresh my memory," then cited "other priorities" and pushed the call to late May. 71-day-old deal, no MEDDPICC filled, William Coffey (the named CRDO champion-candidate) has never been on a call.
+- Starboard Group (Robert Gunderson): attended the re-engage meeting. Jose Betancourt CC'd on the acceptance email but was never formally introduced. No debrief filed. No next step locked. MEDDPICC blank after 90 days.
+
+**Correct response when pattern appears:**
+1. Do not send a follow-up email to the same contact. That is what they expect and they will ignore it.
+2. Attempt a second thread immediately (peer, boss, or colleague).
+3. Use a pattern-break format on the original contact: voicemail, LinkedIn, or a short 3-line email with a specific deadline anchor ("May 21 is 3 weeks out — worth 10 minutes next Tuesday to confirm scope?").
+4. If no second thread is available and original contact does not engage within 14 days, move to breakup email and nurture bucket.
+
+**Early warning signals (before full ghost):**
+- "Refresh my memory" on a scheduled call
+- Rescheduling twice or more without proposing an alternative
+- Accepting calendar invites but asking no questions in the acceptance
+- "Other priorities right now" without naming a date to reconnect
+- Attending the call but deferring every answer ("I'd need to check on that")
+
 ## Cross-references
 - [[closed-won-patterns]]
 - [[MOC_Pipeline]]

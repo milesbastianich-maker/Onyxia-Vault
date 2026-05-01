@@ -59,6 +59,14 @@ Also exclude:
 **2 — Weak:** Adjacent vertical OR size edge (150-500 or 10K-15K)
 **1 — Pass:** Excluded, non-ICP, or in another rep's territory
 
+## ICP edge case notes (updated from live pipeline data)
+
+*Updated 2026-05-01 from W18 synthesis.*
+
+**Manufacturing employee ceiling:** ICP upper bound is 10K employees. Elevate Textiles (15K employees, $4B revenue) entered pipeline via Execweb broker intro and produced a $50K deal record. Multi-brand holding companies in manufacturing (Burlington, A&E, Gütermann, Safety Components under one CISO) create security complexity that justifies the engagement even above the headcount ceiling. Tentative rule: manufacturing accounts above 10K employees are worth pursuing if (a) they are a multi-brand holding company and (b) the CISO or CIO/CISO has an OT/IT boundary challenge. Do not adjust the standard fit scoring rubric yet. Flag these as "fit-4 with size caveat" until a close is recorded.
+
+**Sub-ICP deals via broker/network:** TMF ($20K, 240 employees) and iVisa ($7.7M revenue, 128 employees) entered pipeline via network effect (Armstrong referral, event intro). Both are below ICP floor. Neither changes the rubric — they entered because of Sivan's peer network, not the hunt filters. ICP hunt targets remain unchanged. Sub-ICP broker deals are opportunistic, not systematic.
+
 ## ZoomInfo query template (Tier 1 hunt)
 
 ```
