@@ -67,3 +67,75 @@ Watch for pipeline operator news or inbound signals this week.
 ---
 
 _Cleared once actioned. Do not delete — append completion notes below each item._
+
+---
+
+# Next Morning Queue — 2026-05-05
+
+Flagged by Weekly Vertical Trends 2026-W19. Read before morning brief.
+
+---
+
+## CRITICAL — Healthcare
+
+**Medtronic vendor breach (ShinyHunters, ~9M records, 8-K April 24)**
+Accounts to touch: [[../../10_Accounts/FMOL Health]], [[../../10_Accounts/People Inc]], [[../../10_Accounts/Homestead Smart]], [[../../10_Accounts/GenomOncology]]
+
+- ShinyHunters claimed 9M+ records from Medtronic corporate IT. Confirmed April 24. SEC 8-K filed. Corporate IT only — hospital networks described as separately managed.
+- The play: vendor/BAA risk is the HIPAA angle. Covered entities using Medtronic devices must assess third-party risk posture under current HIPAA Security Rule (and the forthcoming final rule tightens BAA obligations further).
+- Suggested move: send Medtronic breach + HIPAA BAA language to each CISO this week. Best window is now through Friday.
+
+**Covenant Health breach (Qilin ransomware, 478K patients across ME/MA/NH/PA/RI/VT)**
+Accounts to touch: [[../../10_Accounts/FMOL Health]], [[../../10_Accounts/People Inc]], [[../../10_Accounts/Homestead Smart]]
+
+- Multi-state hospital system, PHI + SSNs + clinical data exposed. Qilin had access May 18-26, 2025. Late disclosure now surfacing.
+- Peer breach trigger. Multi-facility systems like FMOL Health and People Inc are the direct analogy.
+- Suggested move: add Covenant reference to outreach this week. Pair with Medtronic vendor breach for a two-vector angle (external attack + vendor risk).
+
+**OCR enforcement scope expanded May 1 — risk management now CMP-exposed**
+Accounts: all four healthcare actives above.
+
+- OCR now formally enforces risk management (acting on risks), not just risk analysis (knowing risks). Same civil monetary penalty exposure.
+- Any account with a risk register but no documented remediation actions is technically exposed.
+- Suggested move: add OCR enforcement scope language to HIPAA framing on all active healthcare outreach.
+
+---
+
+## CRITICAL — Financial Services
+
+**Ameriprise Financial breach (April 28 disclosure, 47,876 customers)**
+Accounts to touch: [[../../10_Accounts/First Horizon Bank]], [[../../10_Accounts/OCC]], [[../../10_Accounts/RGA Reinsurance]], [[../../10_Accounts/Cherry Bekaert]], [[../../10_Accounts/ECI]], [[../../10_Accounts/AKUVO]]
+
+- Breach: March 2-18, 2026. PII + account numbers. ShinyHunters linked. Class action filed.
+- Follows LPL Financial breach (April 24) by four days. Two major wealth management disclosures in one week.
+- For First Horizon Bank (new CISO Leilani Farol, Feb 2026): two consecutive peer breaches in wealth management is the board-level pattern. Use this week.
+- Suggested move: peer-breach sequence to First Horizon, OCC, and RGA Reinsurance. NYDFS post-deadline remediation window is still open — pair with April 15 cert framing.
+
+---
+
+## HIGH — Manufacturing
+
+**Ingersoll Rand double exposure (Feb 5.6TB breach + March ALP-001 ransomware, 8-K filed)**
+Accounts to touch: [[../../10_Accounts/Mitsubishi Heavy]], [[../../10_Accounts/Metalex Manufacturing]]
+
+- Two separate incidents in 90 days on a publicly traded global industrial. Confirms that after initial breach, access is often sold or reused.
+- Resilience report (April 30): 5th year as top sector, 61% YoY attack increase, 90% of losses from ransomware, MFA misconfiguration = largest single loss event (BlackCat).
+- For Mitsubishi Heavy: add Resilience stats + Ingersoll Rand peer reference + CMMC Nov 10 deadline framing.
+- For Metalex: Resilience board stats (90% of losses from 12% of claims) is the executive hook.
+
+---
+
+## MONITOR — Critical Infrastructure
+
+**TSA Pipeline SD-2021-02F expired May 2 — 01G now in effect**
+No current #active CI accounts. Watch for pipeline operator inbound signals or new accounts entering pipeline. If GE Vernova, FirstEnergy, or SJI re-engage, the 01G transition verification is a timely opener.
+
+**CIRCIA final rule slip — CISA at 38% staffing**
+Direction unchanged (72h incident report, 24h ransom payment). No near-term compliance cliff. Flag for any CI prospect in discovery.
+
+**Iranian APT — PLC attacks on water/energy ongoing (CISA aa26-097a)**
+Internet-exposed Rockwell/Allen-Bradley PLCs confirmed attacked. Relevant for any utility, pipeline, or transit prospect. Use as technical urgency if a CI prospect enters pipeline this week.
+
+---
+
+_Cleared once actioned. Do not delete — append completion notes below each item._
