@@ -10,7 +10,7 @@ Week: 2026-W19 (May 4-8)
 3. **AKUVO** — $50K. May 21 POC scoping call. Prep starts this week. William Coffey (CRDO) must be on that call. If Dan McNamara is the only attendee, the deal is not progressing.
 
 _(Medusind: post-settlement urgency window closing. Bala Iyer / John DeJager multi-thread is the play. Does not slip W19.)_
-_(Rocket Companies: 7 days post-discovery call, no deal in HubSpot. Create deal, file Apr 24 debrief, draft Chris Burrows. May 7 earnings = timing hook.)_
+_(Rocket Companies: 10 days post-discovery call, no deal in HubSpot. May 7 earnings = Thursday. Last day to use the hook. Create deal + file Apr 24 debrief + draft Burrows today.)_
 _(Mitsubishi Heavy: MNDA sent Apr 20, 11+ days dark. Send a follow-up or flag as stalled.)_
 
 ## Top 3 new conversations to open
