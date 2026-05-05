@@ -39,10 +39,13 @@ Vault convention is markdown with frontmatter-queryable tables. Dataview can rea
 
 One row per draft. Appended by every hunt play + reply parser.
 
-```
 | draft_id | sent_date | trigger_type | vertical | hook_type | persona | play_source | cta_tier | word_count | reply_y_n | reply_intent | meeting_booked_y_n | approval_state | account | contact | notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-```
+| 2026-05-05-plaid-tom-daniels | 2026-05-05 | reactivation | fins | trigger-specificity | ciso | reactivation-sweep | specific | 115 | pending | pending | pending | approved-send | [[Plaid]] | [[Tom Daniels]] | 22mo revival; Apr hiring-spike trigger; spine pain #2 stack drift; Hashal quote |
+| 2026-05-05-johnmuir-sanjib-dutt | 2026-05-05 | reactivation | healthcare | trigger-specificity | ciso | reactivation-sweep | specific | 125 | pending | pending | pending | approved-send | [[John Muir Health]] | [[Sanjib Dutt]] | 88d revival w/ 4 prior unanswered; Priti Patel Feb 11 AI training quote; spine #5 multi-framework |
+| 2026-05-05-sothebys-steven-kolombaris | 2026-05-05 | reactivation | other | trigger-specificity | ciso | reactivation-sweep | specific | 115 | pending | pending | pending | approved-send | [[Sotheby's]] | [[Steven Kolombaris]] | 14d silent on Apr 21 thread; Apr 23 $1.5B house record trigger; spine #2 stack across surfaces |
+| 2026-05-05-inductive-jason-waits | 2026-05-05 | reactivation | mfg | trigger-specificity | ciso | reactivation-sweep | specific | 125 | pending | pending | pending | approved-send | [[Inductive Automation]] | [[Jason Waits]] | 7mo revival; Carl Gould Mar 27 cyber piece; spine #5; UNVERIFIED CTO title + CMMC relevance |
+| 2026-05-05-alkami-anand-singh | 2026-05-05 | reactivation | fins | compliance-deadline | ciso | reactivation-sweep | specific | 140 | pending | pending | pending | approved-send | [[Alkami]] | [[Anand Singh]] | 17mo revival; Alex Shootman Apr 24 quote; public-co Item 1.05; spine #3 disclosure clock |
 
 ## Dataview queries (once rows exist)
 
