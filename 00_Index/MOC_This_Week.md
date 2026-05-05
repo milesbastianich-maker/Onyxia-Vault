@@ -10,13 +10,13 @@ Week: 2026-W19 (May 4-8)
 3. **AKUVO** — $50K. May 21 POC scoping call. Prep starts this week. William Coffey (CRDO) must be on that call. If Dan McNamara is the only attendee, the deal is not progressing.
 
 _(Medusind: post-settlement urgency window closing. Bala Iyer / John DeJager multi-thread is the play. Does not slip W19.)_
-_(Rocket Companies: 10 days post-discovery call, no deal in HubSpot. May 7 earnings = Thursday. Last day to use the hook. Create deal + file Apr 24 debrief + draft Burrows today.)_
+_(Rocket Companies: 11 days post-discovery call, no deal in HubSpot. May 7 earnings = Thursday. TOMORROW is the last day to use the hook. Create deal + file Apr 24 debrief + draft Burrows first thing.)_
 _(Mitsubishi Heavy: MNDA sent Apr 20, 11+ days dark. Send a follow-up or flag as stalled.)_
 
 ## Top 3 new conversations to open
-1. **Rocket Companies** — Create HubSpot deal. File Apr 24 debrief. Draft Chris Burrows (CISO). May 7 earnings is the timing hook. 7 days post-call and counting.
-2. **JRM / Justin Hershkowitz** — Respond to "do you have any VARs in mind?" (Apr 29). Miles reads manually. Buying signal. Do not route to a partner.
-3. **Elevate Textiles / Rick Scot** — Discovery meeting held May 1. Deal created ($50K, Sep 30 close). Debrief to file Monday. Send scoping call request before the Execweb intro window closes.
+1. **Rocket Companies** — Create HubSpot deal. File Apr 24 debrief. Draft Chris Burrows (CISO). May 7 earnings is the timing hook. 11 days post-call. Tomorrow is the last day.
+2. **Elevate Textiles / Rick Scott** — Debrief filed May 5. Strong CISO, warm call, mid-June next meeting. Follow-up email pending Miles's signal. Confirm email from CRA recording. Warmest new account this week.
+3. **JRM / Justin Hershkowitz** — Respond to "do you have any VARs in mind?" (Apr 29). Miles reads manually. Buying signal. Do not route to a partner.
 
 ## One play to run this week
 [[40_Plays/sivan-peer-intro]] on Medusind second thread. Target: Bala Iyer (CIO) or John DeJager (VP Technology). The $5M settlement payout (Apr 10) is the trigger. Jigar Shah alone is fragile. This is the highest-ROI move in the pipeline right now.
