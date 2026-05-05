@@ -3,6 +3,7 @@ title: Advanced Copywriting for Personalized Emails
 tags: [cold-email, copywriting, methodology]
 updated: 2026-05-05
 related:
+  - "[[README]]"
   - "[[pain-library]]"
   - "[[email-style-guide]]"
   - "[[cold-email-canon]]"
@@ -11,6 +12,8 @@ related:
 ---
 
 # Advanced Copywriting for Personalized Emails
+
+This is layer 0 of the cold-email brain. See [[README]] for the full system map and how this file connects to the operational layers (pain library, style guide, canon, failure modes).
 
 ## Introduction
 
