@@ -115,7 +115,7 @@ Default cold cycle is now TWO emails, not one. Single-touch is reserved for even
 
 ### Email 1 — Informative (no ask, no meeting push)
 
-- Body: 60-90 words. Shorter than v2's 60-110 default.
+- Body: 60-150 words. Default: 60-90. Up to 150 when each additional sentence carries verifiable, recipient-specific information (named regulation with date, named customer-peer, named pain in their tech stack). Brevity wins on equal information density. The drafter decides — no hard ceiling, but every sentence past 90 must justify itself.
 - **Hook (sentence 2):** verifiable trigger about THEIR company with date or quarter required. NOT a regulation; an event (settlement, hire, M&A, board change, IPO filing).
 - **Pattern Statement (sentence 3):** names the spine pain in plain English in the recipient's language. See canon for examples.
 - **Customer quote OR Sivan line (sentence 4-5):** verbatim from `quotes.md` with profile-match setup. Or single-sentence Sivan-as-former-CISO.
@@ -136,7 +136,7 @@ Default cold cycle is now TWO emails, not one. Single-touch is reserved for even
 
 ### Email 2 — Ask (sent 3-5 business days after Email 1, only if no reply)
 
-- Body: 50-75 words.
+- Body: 50-150 words. Default: 50-75. Longer is fine when bringing a thread back to life with new specific intel (recent earnings call quote, new regulation date, named peer move) — but the ASK still has to be one binary sentence. Length pads the bridge, never the ask.
 - **Open:** reference Email 1 explicitly with the date. "Sent you a note on [Mon DD] about [topic from Email 1 hook]."
 - **Bridge:** one new angle or sharper restatement of why this matters NOW. Not a copy-paste of Email 1. Often the customer quote OR Sivan line that didn't fit in Email 1.
 - **Ask:** one sentence. Time-bound. Binary.

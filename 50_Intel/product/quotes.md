@@ -46,6 +46,28 @@ Use for: objections about deployment complexity, TCO, time-to-value.
 
 When Miles is pitching and someone is nodding about their manual reporting burden, drop this phrase: "Our customers call it the spreadsheet-from-hell to automation shift." It's a specific customer phrase, not a marketing phrase.
 
+## Live-call peer quotes (prospects, not customers)
+
+These are reactions from CISO prospects on demos. Use sparingly and only when the prospect resembles the source. Do not pass off as customer quotes.
+
+### Rick Scott — Global CIO + CISO, Elevate Textiles (manufacturing) — 2026-05-05
+
+> "I have a front-row seat to all of the innovation coming out of Tel Aviv, and it's incredible. And this is right up there. I mean, this is something that doesn't exist today."
+
+Triggered by: Asset Coverage Analyzer Venn diagram. Use when pitching multi-tool environments where asset coverage gaps are unsolved.
+
+> "I like the tools that do more than just one thing, because I don't have a lot of budget."
+
+Use as the budget-objection rebuttal anchor. Onyxia bundles risk + SLA + asset inventory in one tool. Rick killed an Axonius POV over single-purpose framing.
+
+> "FAIR — in theory it's wonderful, but it is impossible to execute once, and then to use it moving forward, you just can't do it."
+
+Use against Safe Security or any FAIR-based risk-quant pitch. Rick personally knows Jack Jones (FAIR author) and rejected the model on operational grounds.
+
+> "I need to spend money to protect the company more than I do to identify the risk. I know what the higher risks are at this point. But you're bringing more to the table than that."
+
+Use for any prospect comparing Onyxia to a pure risk-quant tool. Onyxia is not just risk identification — it's the operational layer.
+
 ## Quotes we do NOT have yet
 
 No quotes on:

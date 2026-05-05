@@ -29,11 +29,13 @@ Target one person at one moment. Reference something only they would notice you 
 Wrong: "I saw your company is growing fast in cybersecurity."
 Right: "Your KubeCon talk on sidecar drift in multi-cluster fleets matched a problem I keep hearing from platform leads at fintechs your size."
 
-### Brevity
-The under-75-words rule exists because executives skim on phones between meetings. Every word past 75 reduces reply rate. Brevity also forces specificity, since you cannot pad your way through a short email.
+### Brevity (with judgment)
+Default target is 60-90 words for cold first-touch. Up to 150 is fine — for cold OR follow-ups bringing a thread back to life — when each added sentence carries verifiable, recipient-specific information (named regulation with date, named peer, named tech in their stack, a specific quote from their world). Brevity is the floor, not a ceiling. Pad the bridge with research, never the ask. The ask stays one binary sentence regardless of total length. The drafter decides — no hard ceiling, but every sentence past 90 must justify itself.
 
-Wrong: "I wanted to reach out today because I've been thinking about how teams like yours might be navigating the current landscape of compliance challenges, and I have some thoughts I'd love to share."
-Right: "DORA goes live January 17. Your team owns third-party risk for 11 EU subs. Worth 12 minutes?"
+Wrong (long because lazy): "I wanted to reach out today because I've been thinking about how teams like yours might be navigating the current landscape of compliance challenges, and I have some thoughts I'd love to share."
+Wrong (short but generic): "Cybersecurity is hard. Want to chat?"
+Right (short, dense): "DORA goes live January 17. Your team owns third-party risk for 11 EU subs. Worth 12 minutes?"
+Right (long, dense): "Saw your KubeCon talk Tuesday on sidecar drift. Two of your peers in Series-C NY fintech hit the same drift around month seven of their Type II window — manual control owners stopped logging changes. We pre-build the evidence map so the drift never starts. A peer at a top-five EU reinsurer cut their review cycle from 12 weeks to six days using it. Worth 12 minutes next week to see what they pulled?"
 
 ### Human Tone
 Write the way you would speak to the prospect at a conference bar. Contractions, plain verbs, no corporate filler. Peer-to-peer assumes equal standing, not subordinate gratitude.
@@ -163,7 +165,7 @@ Apply it: Search every draft for these phrases before sending; one hit means rew
 Paste-ready prompt for Claude or GPT:
 
 ```
-Act as a senior B2B sales copywriter. Write a concise, conversational cold email under 75 words.
+Act as a senior B2B sales copywriter. Write a concise, conversational cold email. Target 60-90 words. Up to 150 is fine when each added sentence carries verifiable, recipient-specific information.
 
 Context: I help [Prospect Role] at [Company Type] solve [Specific Pain Point].
 Trigger: Mention [Prospect's Recent Achievement/Insight] to show I did research.
