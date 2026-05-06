@@ -16,6 +16,8 @@ Spec for auto-sending a narrow slice of outbound without Miles's reaction. Switc
 
 `active: false` in frontmatter. The reply parser and EOD shift MUST read this field before auto-sending. If `active: false`, fall back to draft-and-approve. No exceptions.
 
+**Status 2026-05-05:** Switch is **intentionally OFF**. Measurement floor is unmet (measurement-log < 50 reply-resolved rows). Friday weekly synthesis (`40_Plays/shifts/weekly-synthesis.md`) evaluates the floor each week and posts a promotion proposal to `#miles-ai-ops` if cleared. Miles flips this field manually after reviewing.
+
 ## Flip-to-ON condition (measurement floor)
 
 All must be true:
@@ -69,6 +71,15 @@ Weekly file. Pruned from active view after 90 days, moved to `99_Archive/`.
 
 Parser and EOD shift read this file's frontmatter `active` field. No other file encodes this state. One source of truth.
 
+The drafter agent (`~/.claude/agents/onyxia-drafter.md`) reads this `active` field at tier-classification time. T0 routing requires `active: true`; otherwise T0-eligible drafts demote to T1 batch approval. See the drafter's "T0 emit path" subsection of Tier Classification for the exact gate flow.
+
+Friday weekly synthesis (`40_Plays/shifts/weekly-synthesis.md`) evaluates the floor over the rolling 4-week window and writes a row to the Runs table below. Master-switch flip remains MANUAL — Miles flips `active: true` after reviewing the synthesis post in `#miles-ai-ops`.
+
 ## Runs
 
-- YYYY-MM-DD | measurement floor check | pass/fail | notes
+Friday weekly synthesis writes one row per evaluation. Format:
+
+| date | rows_in_log | resolved_rows | aggregate_reply_rate | last_4w_min | floor_passed | notes |
+|---|---|---|---|---|---|---|
+
+(Empty until Friday floor evaluation step ships in `40_Plays/shifts/weekly-synthesis.md`.)

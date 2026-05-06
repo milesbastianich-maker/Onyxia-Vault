@@ -184,6 +184,14 @@ In `#miles-ai-ops`, Miles reacts to draft posts with:
 
 Rejection reasons are captured daily in `60_Lessons/rejections/YYYY-MM-DD.md` and synthesized weekly. See `40_Plays/rejection-feedback.md`.
 
+## Tier-aware approval (added 2026-05-05)
+
+Drafter classifies each draft as **T0 / T1 / T2** per the Tier Classification section in `~/.claude/agents/onyxia-drafter.md`. Tier determines the approval lane:
+
+- **T0** (auto-send) — no Slack post; HubSpot `ai_send_tier=T0` + `onyxia_outbound_status=queued`; n8n Workflow 3 sends. **Inert as of 2026-05-05** (graduated-send-authority floor unmet — see `40_Plays/graduated-send-authority.md`).
+- **T1** (batch approval) — multiple drafts grouped into one Slack message per shift. ✅ on the parent message approves all unmentioned. See `40_Plays/batch-approve.md`.
+- **T2** (individual approval, current default) — one Slack message per draft, ✅/👎/✏️/🟢 reactions per the convention above.
+
 ## Reply intent handling
 
 Every reply to Miles's outbound emails is classified by the parser (see `40_Plays/reply-intent-parser.md`). The parser runs during Midday and EOD shifts. Each classified reply produces a branch-default Gmail draft for Miles's approval. Pricing questions always redirect to scoping call, never quote.

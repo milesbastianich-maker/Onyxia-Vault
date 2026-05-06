@@ -45,7 +45,11 @@ Deals needing attention in next 7 days
 
 8. Post the brief to `#miles-ai-ops` (channel ID `C0AUB4DATP0`).
 9. Append the brief to `~/ObsidianVault/70_Daily/{{date}}.md` under a `## Morning brief` section.
-10. Commit vault changes.
+10. **If this shift produced any drafts (e.g., trigger-event-hunt fired and the drafter ran):** group by `tier` and post per `40_Plays/batch-approve.md`:
+    - All `tier: T1` drafts collapse into ONE batch Slack message with `batch_id: T1-{{date}}-0700-morning-brief`. Write the batch_id back to each draft's measurement-log row.
+    - Each `tier: T2` draft posts as its own individual Slack message (current behavior).
+    - Each `tier: T0` draft skips Slack; sets HubSpot `ai_send_tier=T0` + `onyxia_outbound_status=queued`; writes audit row to `60_Lessons/auto-send-audit/YYYY-WW.md`.
+11. Commit vault changes.
 
 ## Keep it tight
 Max 300 words in the Slack post. Miles reads this on his phone.

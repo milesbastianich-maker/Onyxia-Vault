@@ -12,12 +12,15 @@ tags: [intel, methodology, tracker]
 
 Single source of truth for every outbound touch and its follow-up cadence. Sort by `next_touch_date` ASC. Updated by EOD shift + weekly-pipeline-review skill + manual edits.
 
-**Auto-update runbook (not yet live — pending Miles ✅ to flip on):**
-- Daily EOD: scan Gmail for replies on `reply_state=pending` rows older than 24h. Update `reply_state` + `reply_intent` via `40_Plays/reply-intent-parser.md`.
-- Silent 5d + no bounce → flip `next_touch_plan` to Day-5 bump per vertical sequence.
-- Silent 12d → flip to Day-12 breakup.
-- Silent 30d → `reply_state=silent_30d`, archive from active queue.
-- Bounces on send: immediate `reply_state=bounced`, exclude from future touches.
+**Auto-update runbook (LIVE as of 2026-05-05 — EOD shift owns):**
+
+EOD shift performs three writes against this file (see `40_Plays/shifts/eod-wrap.md`):
+
+1. **Reply detection.** For each row where `reply_state=pending` AND `send_date ≥ 24h ago`: `mcp__claude_ai_Gmail__search_threads` for the contact + subject; if a reply exists, classify via `40_Plays/reply-intent-parser.md` and write back `reply_state` + `reply_intent`.
+2. **Cadence advance.** For each row where `next_touch_date ≤ today` AND `reply_state=pending`: surface to next morning brief's action queue. Apply per-sequence rule: silent 5d → Day-5 bump; silent 12d → Day-12 breakup; silent 30d → `reply_state=silent_30d`, archive.
+3. **Sequence exhaust.** For each row where `touch_number ≥ sequence_max` AND `reply_state=pending`: flip `reply_state=silent_30d`, archive from active queue.
+
+Bounces on send: immediate `reply_state=bounced`, exclude from future touches (handled by drafter on send error).
 
 ---
 

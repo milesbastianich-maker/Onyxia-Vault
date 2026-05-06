@@ -50,6 +50,53 @@ For every new Gmail thread that's a reply to a message Miles sent in the last 60
 - **EOD Wrap (16:30 ET):** final pass on the day's replies.
 - Each run logs to `60_Lessons/replies/YYYY-MM-DD.md`.
 
+## §5 — Measurement-log writeback (mandatory, added 2026-05-05)
+
+Every classified reply must update the originating draft's row in `50_Intel/methodology/measurement-log.md`. This is what closes the reply-rate loop and lets Friday weekly synthesis compute reply rate by tier / hook / persona / play.
+
+**Procedure (per classified reply):**
+
+1. Find the originating draft in measurement-log:
+   - Compute `expected_draft_id` from the thread: search rows where `contact` wikilink matches the thread sender, `sent_date ≥ thread.first_message_date - 60 days`, and `reply_y_n=pending`.
+   - If exactly one match: that is the row to update.
+   - If multiple matches: pick the most recent `sent_date`. Log the disambiguation in `notes`.
+   - If zero matches: this is an **orphan reply** (e.g., a reply to a thread that pre-dates measurement-log, or a manually-sent email never logged). Write to `60_Lessons/replies/orphans/YYYY-MM-DD.md` with full context. Do NOT fabricate a row.
+
+2. Update the matched row:
+   - `reply_y_n: y` (anything that is not OOO is a real reply)
+   - `reply_intent: <classified bucket name>`
+   - `notes: <append "replied YYYY-MM-DD HH:MM ET" + brief intent context>`
+
+3. If the classified intent is `Interested` and a meeting subsequently appears on the calendar with this contact within 14 days, EOD wrap (or Friday synthesis) sets `meeting_booked_y_n: y` per the calendar sweep step in `40_Plays/shifts/eod-wrap.md`.
+
+4. OOO replies are special: do NOT flip `reply_y_n=y`. Write `reply_intent: ooo` with `notes` capturing the OOO end date if stated. Auto-retry on/after that date is owned by the touch-tracker auto-update runbook §2.
+
+**Orphan log format (`60_Lessons/replies/orphans/YYYY-MM-DD.md`):**
+
+```yaml
+---
+type: lesson
+subtype: orphan-reply
+date: YYYY-MM-DD
+tags: [lesson, orphan]
+---
+```
+
+```
+# Orphan replies — YYYY-MM-DD
+
+| reply_at | from | subject | thread_link | classified_intent | reason_orphan |
+|---|---|---|---|---|---|
+| 2026-05-06 14:22 ET | john@example.com | Re: ... | <gmail link> | Interested | thread_pre_dates_measurement_log |
+```
+
+Friday synthesis reads orphan logs to surface "we are getting replies on threads we never logged" — a leakage indicator.
+
+**Failure handling:**
+
+- If measurement-log file is locked or write fails, post a single-line warning to `#miles-ai-ops`: `🚨 reply-parser: measurement-log writeback failed for <thread>. Will retry next shift.` Do NOT block the reply-classification flow on writeback.
+- If the same reply has already been written (idempotency check: `notes` already contains "replied YYYY-MM-DD"), skip. Log nothing.
+
 ## Hard rules
 
 - **Never send a response.** Always draft. Miles approves per the same rules as cold outbound.

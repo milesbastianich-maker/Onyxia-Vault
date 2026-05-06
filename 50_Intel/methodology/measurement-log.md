@@ -33,24 +33,27 @@ Vault convention is markdown with frontmatter-queryable tables. Dataview can rea
 | `approval_state` | `approved-send` / `rejected` / `edited` / `pending` | Slack reaction |
 | `account` | wikilink to `10_Accounts/{Company}.md` | Vault |
 | `contact` | wikilink to `20_Contacts/{Name}.md` | Vault |
+| `tier` | `T0` / `T1` / `T2` / `legacy` | Drafter classification (see drafter agent Tier Classification section). `legacy` for rows pre-2026-05-05 cutover. |
+| `tier_rationale` | free text, 1 line | Which tier rule fired |
+| `batch_id` | string or empty | If T1, the batch_id from `40_Plays/batch-approve.md`; T0/T2 empty |
 | `notes` | free text, 1 line max | Human |
 
 ## Log entries
 
 One row per draft. Appended by every hunt play + reply parser.
 
-| draft_id | sent_date | trigger_type | vertical | hook_type | persona | play_source | cta_tier | word_count | reply_y_n | reply_intent | meeting_booked_y_n | approval_state | account | contact | notes |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-05-05-plaid-tom-daniels | 2026-05-05 | reactivation | fins | trigger-specificity | ciso | reactivation-sweep | specific | 115 | pending | pending | pending | approved-send | [[Plaid]] | [[Tom Daniels]] | 22mo revival; Apr hiring-spike trigger; spine pain #2 stack drift; Hashal quote |
-| 2026-05-05-johnmuir-sanjib-dutt | 2026-05-05 | reactivation | healthcare | trigger-specificity | ciso | reactivation-sweep | specific | 125 | pending | pending | pending | approved-send | [[John Muir Health]] | [[Sanjib Dutt]] | 88d revival w/ 4 prior unanswered; Priti Patel Feb 11 AI training quote; spine #5 multi-framework |
-| 2026-05-05-sothebys-steven-kolombaris | 2026-05-05 | reactivation | other | trigger-specificity | ciso | reactivation-sweep | specific | 115 | pending | pending | pending | approved-send | [[Sotheby's]] | [[Steven Kolombaris]] | 14d silent on Apr 21 thread; Apr 23 $1.5B house record trigger; spine #2 stack across surfaces |
-| 2026-05-05-inductive-jason-waits | 2026-05-05 | reactivation | mfg | trigger-specificity | ciso | reactivation-sweep | specific | 125 | pending | pending | pending | approved-send | [[Inductive Automation]] | [[Jason Waits]] | 7mo revival; Carl Gould Mar 27 cyber piece; spine #5; UNVERIFIED CTO title + CMMC relevance |
-| 2026-05-05-alkami-anand-singh | 2026-05-05 | reactivation | fins | compliance-deadline | ciso | reactivation-sweep | specific | 140 | pending | pending | pending | approved-send | [[Alkami]] | [[Anand Singh]] | 17mo revival; Alex Shootman Apr 24 quote; public-co Item 1.05; spine #3 disclosure clock |
-| 2026-05-05-usrenalcare-hussein-din | 2026-05-05 | reactivation | healthcare | trigger-specificity | ciso | reactivation-sweep | specific | 125 | pending | pending | pending | approved-send | [[U.S. Renal Care]] | [[Hussein Din]] | Reopen after Feb breakup; April tech-services hiring spree (4 VP/Dir + SVP + ML/LLM eng); spine #2 stack drift |
-| 2026-05-05-avient-barbara-walker | 2026-05-05 | new-ciso | mfg | trigger-specificity | ciso | reactivation-sweep | peer-call | 125 | pending | pending | pending | approved-send | [[Avient]] | [[Barbara Walker]] | New CFO Giuseppe Di Salvo Apr 27 (effective June 1); spine #4 new-leader-above; Canon 2 pattern |
-| 2026-05-05-sei-corey-moscoe | 2026-05-05 | earnings | fins | compliance-deadline | ciso | reactivation-sweep | specific | 135 | pending | pending | pending | approved-send | [[SEI]] | [[Corey Moscoe]] | Reopen after Feb breakup; Sneha Shah Q1 earnings AI-security quote Apr 23; spine #3 + AI-sec frame |
-| 2026-05-05-ubs-john-cadavid | 2026-05-05 | reactivation | fins | trigger-specificity | ciso | reactivation-sweep | specific | 130 | pending | pending | pending | approved-send | [[UBS]] | [[John Cadavid]] | Apr 30 governance reshuffle (Ronner/Martin/CCGO); spine #5 multi-framework FINMA/SEC/FCA/NYDFS |
-| 2026-05-05-aap-george-maropakis | 2026-05-05 | reactivation | other | trigger-specificity | ciso | reactivation-sweep | specific | 125 | pending | pending | pending | approved-send | [[Advance Auto Parts]] | [[George Maropakis]] | Shane O'Kelly Apr 24 retail-transformation talk; spine #6 between-audit drift |
+| draft_id | sent_date | trigger_type | vertical | hook_type | persona | play_source | cta_tier | word_count | reply_y_n | reply_intent | meeting_booked_y_n | approval_state | tier | tier_rationale | batch_id | account | contact | notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-05-05-plaid-tom-daniels | 2026-05-05 | reactivation | fins | trigger-specificity | ciso | reactivation-sweep | specific | 115 | pending | pending | pending | approved-send | legacy | pre-tier-system | | [[Plaid]] | [[Tom Daniels]] | 22mo revival; Apr hiring-spike trigger; spine pain #2 stack drift; Hashal quote |
+| 2026-05-05-johnmuir-sanjib-dutt | 2026-05-05 | reactivation | healthcare | trigger-specificity | ciso | reactivation-sweep | specific | 125 | pending | pending | pending | approved-send | legacy | pre-tier-system | | [[John Muir Health]] | [[Sanjib Dutt]] | 88d revival w/ 4 prior unanswered; Priti Patel Feb 11 AI training quote; spine #5 multi-framework |
+| 2026-05-05-sothebys-steven-kolombaris | 2026-05-05 | reactivation | other | trigger-specificity | ciso | reactivation-sweep | specific | 115 | pending | pending | pending | approved-send | legacy | pre-tier-system | | [[Sotheby's]] | [[Steven Kolombaris]] | 14d silent on Apr 21 thread; Apr 23 $1.5B house record trigger; spine #2 stack across surfaces |
+| 2026-05-05-inductive-jason-waits | 2026-05-05 | reactivation | mfg | trigger-specificity | ciso | reactivation-sweep | specific | 125 | pending | pending | pending | approved-send | legacy | pre-tier-system | | [[Inductive Automation]] | [[Jason Waits]] | 7mo revival; Carl Gould Mar 27 cyber piece; spine #5; UNVERIFIED CTO title + CMMC relevance |
+| 2026-05-05-alkami-anand-singh | 2026-05-05 | reactivation | fins | compliance-deadline | ciso | reactivation-sweep | specific | 140 | pending | pending | pending | approved-send | legacy | pre-tier-system | | [[Alkami]] | [[Anand Singh]] | 17mo revival; Alex Shootman Apr 24 quote; public-co Item 1.05; spine #3 disclosure clock |
+| 2026-05-05-usrenalcare-hussein-din | 2026-05-05 | reactivation | healthcare | trigger-specificity | ciso | reactivation-sweep | specific | 125 | pending | pending | pending | approved-send | legacy | pre-tier-system | | [[U.S. Renal Care]] | [[Hussein Din]] | Reopen after Feb breakup; April tech-services hiring spree (4 VP/Dir + SVP + ML/LLM eng); spine #2 stack drift |
+| 2026-05-05-avient-barbara-walker | 2026-05-05 | new-ciso | mfg | trigger-specificity | ciso | reactivation-sweep | peer-call | 125 | pending | pending | pending | approved-send | legacy | pre-tier-system | | [[Avient]] | [[Barbara Walker]] | New CFO Giuseppe Di Salvo Apr 27 (effective June 1); spine #4 new-leader-above; Canon 2 pattern |
+| 2026-05-05-sei-corey-moscoe | 2026-05-05 | earnings | fins | compliance-deadline | ciso | reactivation-sweep | specific | 135 | pending | pending | pending | approved-send | legacy | pre-tier-system | | [[SEI]] | [[Corey Moscoe]] | Reopen after Feb breakup; Sneha Shah Q1 earnings AI-security quote Apr 23; spine #3 + AI-sec frame |
+| 2026-05-05-ubs-john-cadavid | 2026-05-05 | reactivation | fins | trigger-specificity | ciso | reactivation-sweep | specific | 130 | pending | pending | pending | approved-send | legacy | pre-tier-system | | [[UBS]] | [[John Cadavid]] | Apr 30 governance reshuffle (Ronner/Martin/CCGO); spine #5 multi-framework FINMA/SEC/FCA/NYDFS |
+| 2026-05-05-aap-george-maropakis | 2026-05-05 | reactivation | other | trigger-specificity | ciso | reactivation-sweep | specific | 125 | pending | pending | pending | approved-send | legacy | pre-tier-system | | [[Advance Auto Parts]] | [[George Maropakis]] | Shane O'Kelly Apr 24 retail-transformation talk; spine #6 between-audit drift |
 
 ## Dataview queries (once rows exist)
 
@@ -79,7 +82,7 @@ WHERE meeting_booked_y_n = "y"
 
 ## How plays write to this
 
-Every hunt play's "Runs" section references this log. On draft creation, the play appends a row with `sent_date` blank and `approval_state = pending`. When Miles approves and it sends, the shift updates `sent_date` and `approval_state`. When a reply lands, parser updates `reply_y_n` and `reply_intent`. When a meeting is on calendar with this prospect, `meeting_booked_y_n = y`.
+Every hunt play's "Runs" section references this log. On draft creation, the drafter writes a row with `sent_date` blank, `approval_state = pending`, and `tier` + `tier_rationale` populated per the drafter's Tier Classification section. `batch_id` is populated by the shift when a T1 draft is grouped into a batch (see `40_Plays/batch-approve.md`). When Miles approves and it sends, the shift updates `sent_date` and `approval_state`. When a reply lands, the reply-intent-parser writes back `reply_y_n` and `reply_intent`. When a meeting is on calendar with this prospect, `meeting_booked_y_n = y`.
 
 ## What this unblocks
 
